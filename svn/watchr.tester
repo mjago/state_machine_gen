@@ -1,0 +1,11 @@
+require 'rubygems'
+require 'watchr'
+
+watch('^state/stateData/(.*)\.rb') do |sm|
+  STDOUT.puts "debug(watchr.tester) => sm =  #{sm}"
+  #sm.gsub!('state_data','state_machine')
+  STDOUT.puts "drawing state/#{File.basename(sm.to_s).to_s.gsub('state_data','state_machine')}"
+  STDOUT.puts system("ruby state/draw_state_machine.rb #{File.basename(sm.to_s).to_s.gsub('state_data','state_machine')}")
+end
+
+'^lib/watchr/(.*)\.rb' 
