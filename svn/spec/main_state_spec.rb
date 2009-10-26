@@ -31,11 +31,10 @@ describe 'generate state machine called main_state' do
       @main_state.state.should == :system_failure_state
     end
     
-    it 'goes to system_warning_state on initialisation_warning!' do
+    it 'goes to queue_init_warning_state on initialisation_warning!' do
       @main_state.initialisation_warning!
-      @main_state.state.should == :system_warning_state
+      @main_state.state.should == :queue_init_warning_state
     end
-    
   end
   
   describe 'system_failure_state' do
@@ -49,6 +48,17 @@ describe 'generate state machine called main_state' do
     end
   end
   
+  describe 'queue_init_warning_state' do
+    before do
+      @main_state.initialisation_warning!
+    end
+
+    it 'changes to check_timers_state given init_warning_queued!' do
+      @main_state.init_warning_queued!
+      @main_state.state.should == :check_timers_state
+    end
+  end
+  
   describe 'check_timers_state' do
     before do
       @main_state.initialised!
@@ -58,8 +68,26 @@ describe 'generate state machine called main_state' do
       @main_state.timers_processed!
       @main_state.state.should == :check_comms_state
     end
+    
+    it 'goes to queue_timer_warning_state given timer_warning!' do
+      @main_state.timer_warning!
+      @main_state.state.should == :queue_timer_warning_state
+    end
   end
+  
+  describe 'queue_comms_warning_state' do
+    before do
+      @main_state.initialised!
+      @main_state.timers_processed!
+      @main_state.comms_warning!
+    end
 
+    it 'should change to process_warnings_state given comms_warning_queued!' do
+      @main_state.comms_warning_queued!
+      @main_state.state.should == :process_alarms_state
+    end
+  end
+  
   describe 'check_comms_state' do
     before do
       @main_state.initialised!
@@ -68,10 +96,55 @@ describe 'generate state machine called main_state' do
 
     it 'goes to check_timers_state given comms_processed!' do
       @main_state.comms_processed!
+      @main_state.state.should == :process_alarms_state
+    end
+
+    it 'goes to queue_comms_warning_state given comms_warning!' do
+      @main_state.comms_warning!
+      @main_state.state.should == :queue_comms_warning_state
+    end
+  end
+  
+  describe 'queue_comms_warning_state' do
+    before do
+      @main_state.initialised!
+      @main_state.timers_processed!
+      @main_state.comms_warning!
+    end
+    
+    it 'goes to process_alarms_state after comms_warning_queued!' do
+      @main_state.comms_warning_queued!
+      @main_state.state.should == :process_alarms_state
+    end
+  end
+  
+  describe 'process_alarms_state' do
+    before do
+      @main_state.initialised!
+      @main_state.timers_processed!
+      @main_state.comms_processed!
+    end
+    
+    it 'goes to process_warnings_state after alarms_processed!' do
+      @main_state.alarms_processed!
+      @main_state.state.should == :process_warnings_state
+    end
+  end
+  
+  describe 'process_warnings_state' do
+    before do
+      @main_state.initialised!
+      @main_state.timers_processed!
+      @main_state.comms_processed!
+      @main_state.alarms_processed!
+    end
+    
+    it 'goes to check_timers_state after warnings_processed!' do
+      @main_state.warnings_processed!
       @main_state.state.should == :check_timers_state
     end
   end
-    
+  
 end
 
 
