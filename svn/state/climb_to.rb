@@ -1,7 +1,4 @@
-# require File.
-#   expand_path(File.
-#               join(File.
-#                    dirname(__FILE__),'..','state','build_state_machine'))
+
 FROM_STATE = 0
 STATE_TRANSITION = 1
 TO_STATE = 2
@@ -57,11 +54,7 @@ class BuildStateMachine
           ary.reverse.each do |t|
             @current_states.send(t)
           end
-          
-            
           return ary.reverse
-          
-          
         end
         @state_to_climb_to = node[FROM_STATE]
       else
@@ -69,32 +62,6 @@ class BuildStateMachine
       end
     end
   end
-  
-#   def climb_to state_to_climb_to
-#     puts "state_to_climb_to"
-#     @state_to_climb_to = state_to_climb_to
-#     return false if @state_to_climb_to.class != Symbol
-#     return false if not check_TO_STATE?(@state_to_climb_to)
-#     ary = []
-#     false
-#     loop do
-#       node = fetch_node_leading_to(@state_to_climb_to)
-#       if not node == false
-#         puts node.inspect
-#         ary << node[STATE_TRANSITION]
-#         puts "ary = #{ary}"
-#         if node[FROM_STATE] == self.initial_state
-#           return ary.reverse
-#         end
-#         @state_to_climb_to = node[FROM_STATE]
-#       else
-#         return false
-#       end
-#     end
-#   end
-
-
-  
 end
 
 

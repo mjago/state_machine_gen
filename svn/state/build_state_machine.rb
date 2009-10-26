@@ -4,6 +4,7 @@ require 'statemachine'
  require File.expand_path(File.join(File.dirname(__FILE__),'stateData','main_state_data.rb'))
  require File.expand_path(File.join(File.dirname(__FILE__),'stateData','state_data.rb'))
  require File.expand_path(File.join(File.dirname(__FILE__),'climb_to'))
+ require File.expand_path(File.join(File.dirname(__FILE__),'state_table_generation'))
 
 class BuildStateMachine
   attr_accessor :connection_states
