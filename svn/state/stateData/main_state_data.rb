@@ -25,7 +25,6 @@
       [:process_warnings_state, :warnings_processed!, :check_timers_state],
       
       [:system_failure_state, :await_off!,:system_failure_state],
-
       
      ]
    end
