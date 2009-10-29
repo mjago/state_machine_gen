@@ -1,3 +1,4 @@
+
 require File.
   expand_path(File.
               join(File.
@@ -5,18 +6,16 @@ require File.
 
 describe 'generate state machine called main_state' do
   before(:each) do
-    @bsm = BuildStateMachine.new
+    @bsm = BuildStateMachine.new('main_state_data')
     @s = @bsm.build_state_machine('main_state_data')
   end
-
+  
   after(:each) do
-    @s = nil
+    @bsm = nil
     @s = nil
   end
-    
+  
   it 'returns a state machine when passed a state machine data name' do
-    @bsm = BuildStateMachine.new
-    @s = @bsm.build_state_machine('main_state_data')
     @s.class.should == Statemachine::Statemachine
   end
   
@@ -140,7 +139,6 @@ describe 'generate state machine called main_state' do
       @s.state.should == :check_timers_state
     end
   end
-  
 end
 
 
