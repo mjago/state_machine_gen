@@ -3,6 +3,10 @@
 = generate tertiary_state_machine
 =end
 
+FROM_STATE = 0
+TRANSITION = 1
+TO_STATE = 2
+
 require File.expand_path(File.join(File.dirname(__FILE__),'graph_lib','graph_lib'))
 
 class String
@@ -14,20 +18,22 @@ end
 
 def draw_state_machine(state_machine_name)
 
-  @state_data_path = File.basename(state_machine_name).gsub('state_machine','state_data.rb')
+  @state_data_path = File.basename(state_machine_name).gsub('state_machine','state_data.yml')
   @state_data_path = File.expand_path(File.join(File.dirname(__FILE__),'..','state','stateData',@state_data_path))
-  require @state_data_path
-  
   @state_machine_name = state_machine_name
-                                     
                                      
   gvr = GraphvizR.new @state_machine_name
   
-  gvr.graph[:label => "\n\n#{@state_machine_name.gsub('_',' ').to_s.titlecase}",
+   gvr.graph[:label => "\n\n#{@state_machine_name.gsub('_',' ').to_s.titlecase}",
+             :bgcolor => :white, 
+             :rankdir => "UD"
+            ]
+  gvr.graph[:label => "This is a test label",
             :bgcolor => :white, 
             :rankdir => "UD"
            ]
-  gvr.edge [:color=>:midnightblue, 
+  gvr.edge [
+#	:color=>:midnightblue, 
             :color=>:green, 
             :fontname => 'verdana',
             :fontsize => '16',
@@ -35,18 +41,42 @@ def draw_state_machine(state_machine_name)
             :url => 'http://google.com'
            ]
   gvr.node [:color=>:black, 
-            :fontcolor => :navyblue,
+            :fontcolor => :white,
             :fontname => 'verdana',
             :fontsize => '16',
             :style=>:filled,
-            :fillcolor=>:lightblue,
+            :fillcolor=>:red,
             :shape=>:circle,#:box, 
             :url => 'http://google.com'
            ]
-
-  StateData.send(@state_machine_name.gsub('_machine','_data')).each do |st|
-    gvr[st[0].to_s.to_sym] [:label => st[0].to_s.gsub("_","\n")]
-    (gvr[st[0].to_s.to_sym] >> gvr[st[2].to_s.to_sym])[:label => st[1].to_s.gsub("_","\n")]
+  
+  data = YAML::load(File.
+                    read(File.
+                         expand_path(File.
+                                     join(File.
+                                          dirname(__FILE__),'stateData',"#{state_machine_name}.yml"))))
+  @node_colour = 'red'
+	match_found = false
+  data.each do |st|
+		data.each do |d|
+			if d[FROM_STATE] == st[TO_STATE]
+				match_found = true
+				break
+			end
+		end
+		if match_found == true 
+			puts match_found
+			@node_colour = :cadetblue
+			@text_colour = :black
+			else
+				puts match_found
+			@node_colour = :red
+			@text_colour = :white
+		end
+		
+    gvr[st[FROM_STATE].to_s.to_sym] [:label => st[FROM_STATE].to_s.gsub("_","\n"),
+		:color => @node_colour, :fontcolor => @text_colour, :fillcolor => @node_colour]
+    (gvr[st[FROM_STATE].to_s.to_sym] >> gvr[st[TO_STATE].to_s.to_sym])[:label => st[TRANSITION].to_s.gsub("_","\n")]
   end		
   generate_graph(gvr, File.
                  expand_path(File.
@@ -67,8 +97,8 @@ def draw_state_machine(state_machine_name)
 end	
 
 if $0 ==__FILE__
-  draw_state_machine('comms_driver_state_machine') 
-#  display_graph(File.expand_path(File.join(File.dirname(__FILE__), 'comms_driver_state_machine.pdf'))) 
+  draw_state_machine('test_state_data') 
+#  display_graph(File.expand_path(File.join(File.dirname(__FILE__), 'output','test_state_data.pdf'))) 
 else
   ARGV.each do |sn|
     puts "drawing #{sn}"
