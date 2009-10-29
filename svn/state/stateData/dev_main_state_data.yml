@@ -1,0 +1,32 @@
+---
+- - :init_state
+  - :initialised!
+  - :check_timers_state
+
+- - :init_state
+  - :initialised!
+  - :contact_tester_state
+      
+- - :contact_tester_state
+  - :tester_not_contacted!
+  - :contact_tester_state
+
+- - :contact_tester_state
+  - :tester_contacted!
+  - :listen_for_tester_state
+
+- - :contact_tester_state
+  - :contact_tester_timeout!
+  - :init_state
+
+- - :listen_for_tester_state
+  - :tester_unheard!
+  - :listen_for_tester_state
+
+- - :listen_for_tester_state
+  - :tester_heard!
+  - :full_duplex_state
+
+- - :listen_for_tester_state
+  - :tester_listening_timeout!
+  - :contact_tester_state

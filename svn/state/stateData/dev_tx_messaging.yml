@@ -1,0 +1,107 @@
+
+- - :unconnected_state
+  - :no_rx_detected!
+  - :unconnected_state
+
+ - - :idle_state
+  - :no_action!
+  - :idle_state
+
+- - :idle_state,
+  - :send_file!
+  - :sending_file_state
+
+- - :idle_state
+  - :delete_file!
+  - :deleting_file_state
+
+- - :idle_state
+  - :send_structure!
+  - :sending_structure_state
+
+- - :idle_state
+  - :send_hash!
+  - :sending_hash_state
+ - - :idle_state
+  - :send_tick!
+  - :sending_tick_state
+      
+ - - :sending_file_state
+  - :no_action!
+  - :sending_file_state
+
+- - :sending_file_state
+  - :ack_received!
+  - :idle_state
+
+- - :sending_file_state
+  - :nak_received!
+  - :idle_state
+
+- - :sending_file_state
+  - :rx_timeout!
+  - :idle_state
+      
+ - - :deleting_file_state
+  - :no_action!
+  - :deleting_file_state
+
+- - :deleting_file_state
+  - :ack_received!
+  - :idle_state
+
+- - :deleting_file_state
+  - :nak_received!
+  - :idle_state
+
+- - :deleting_file_state
+  - :rx_timeout!
+  - :idle_state
+      
+ - - :sending_structure_state
+  - :no_action!
+  - :sending_structure_state
+
+- - :sending_structure_state
+  - :ack_received!
+  - :idle_state
+
+- - :sending_structure_state
+  - :nak_received!
+  - :idle_state
+
+- - :sending_structure_state
+  - :rx_timeout!
+  - :idle_state
+      
+ - - :sending_tick_state
+  - :no_action!
+  - :sending_tick_state
+
+- - :sending_tick_state
+  - :ack_received!
+  - :idle_state
+
+- - :sending_tick_state
+  - :nak_received!
+  - :idle_state
+
+- - :sending_tick_state
+  - :rx_timeout!
+  - :idle_state
+      
+ - - :sending_hash_state
+  - :no_action!
+  - :sending_hash_state
+
+- - :sending_hash_state
+  - :ack_received!
+  - :idle_state
+
+- - :sending_hash_state
+  - :nak_received!
+  - :idle_state
+
+- - :sending_hash_state
+  - :rx_timeout!
+  - :idle_state

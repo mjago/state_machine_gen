@@ -1,0 +1,40 @@
+---
+- - :is_tick_due_state
+  - :tick_not_due!
+  - :have_files_changed_state
+
+- - :is_tick_due_state
+  - :tick_due!
+  - :send_tick_state
+      
+- - :have_files_changed_state
+  - :no_action! 
+  - :have_files_changed_state
+      
+- - :send_tick_state 
+  - :sent_tick! 
+  - :await_tick_ack_state
+      
+- - :await_tick_ack_state 
+  - :received_tick_ack! 
+  - :have_files_changed_state
+
+- - :await_tick_ack_state 
+  - :received_tick_nak! 
+  - :increment_tester_nak_state     
+
+- - :await_tick_ack_state 
+  - :await_tick_ack_timeout! 
+  - :no_connection_state     
+      
+- - :increment_tester_nak_state
+  - :nak_overcount!
+  - :init_state
+
+- - :increment_tester_nak_state
+  - :not_nak_overcount!
+  - :send_tick_state
+
+- - :pending
+  - :PENDING!
+  - :pending

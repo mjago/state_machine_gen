@@ -1,0 +1,45 @@
+---
+- - :init_state
+  - :initialised!
+  - :idle_state
+
+- - :idle_state 
+  - :no_data! 
+  - :idle_state
+  
+- - :idle_state
+  - :data_received! 
+  - :process_state
+
+- - :idle_state
+  - :shutdown_request! 
+  - :shutdown_state
+
+- - :idle_state
+  - :log_changes_timed_event! 
+  - :log_changes_state
+
+- - :idle_state
+  - :check_comms_timed_event! 
+  - :check_comms_state
+
+- - :process_state
+  - :processed! 
+  - :idle_state
+
+- - :log_changes_state
+  - :changes_logged!
+  - :idle_state
+
+- - :check_comms_state
+  - :comms_processed!
+  - :idle_state
+
+- - :check_comms_state
+  - :processing_comms!
+  - :check_comms_state
+
+- - :shutdown_state
+  - :shutting_down! 
+  - :shutdown_state
+

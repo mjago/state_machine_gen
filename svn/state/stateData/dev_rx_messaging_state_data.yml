@@ -1,0 +1,24 @@
+---
+- - :idle_state 
+  - :no_action! 
+  - :idle_state
+
+- - :idle_state 
+  - :test_async_rx! 
+  - :testing_async_rx_state
+
+- - :idle_state 
+  - :await_ack! 
+  - :awaiting_ack_state
+
+- - :testing_async_rx_state 
+  - :no_async_rx_data! 
+  - :idle_state
+
+- - :testing_async_rx_state 
+  - :async_rx_data! 
+  - :idle_state
+
+- - :awaiting_ack_state
+  - :PENDING!
+  - :awaiting_ack_state

@@ -1,0 +1,29 @@
+---
+
+- - :init_state
+  - :initialised!
+  - :listen_for_dev_state
+
+- - :listen_for_dev_state
+  - :dev_unheard!
+  - :listen_for_dev_state
+
+- - :listen_for_dev_state
+  - :dev_heard!
+  - :contact_dev_state
+
+- - :listen_for_dev_state
+  - :listen_for_dev_timeout!
+  - :init_state
+      
+- - :contact_dev_state
+  - :dev_not_contacted!
+  - :contact_dev_state
+
+- - :contact_dev_state
+  - :dev_contacted!
+  - :full_duplex_state
+
+- - :contact_dev_state
+  - :dev_contact_timeout!
+  - :listen_for_dev_state

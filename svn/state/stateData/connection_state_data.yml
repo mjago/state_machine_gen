@@ -1,0 +1,52 @@
+---
+- - :unconnected_state
+  - :no_rx_detected!
+  - :unconnected_state
+
+- - :unconnected_state
+  - :tx_detected!
+  - :tx_only_state
+
+- - :unconnected_state
+  - :rx_detected!
+  - :rx_only_state
+      
+- - :tx_only_state
+  - :tx_detected!
+  - :tx_only_state
+
+- - :tx_only_state
+  - :rx_detected!
+  - :full_duplex_state
+
+- - :tx_only_state
+  - :tx_dropped!
+  - :unconnected_state
+      
+- - :rx_only_state
+  - :rx_detected!
+  - :rx_only_state
+
+- - :rx_only_state
+  - :tx_detected!
+  - :full_duplex_state
+
+- - :rx_only_state
+  - :rx_dropped!
+  - :unconnected_state
+      
+- - :full_duplex_state
+  - :rx_detected!
+  - :full_duplex_state
+
+- - :full_duplex_state
+  - :tx_detected!
+  - :full_duplex_state
+
+- - :full_duplex_state
+  - :tx_dropped!
+  - :rx_only_state
+
+- - :full_duplex_state
+  - :rx_dropped!
+  - :tx_only_state

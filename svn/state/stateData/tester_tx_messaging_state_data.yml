@@ -1,0 +1,4 @@
+---
+- - :idle_state
+  - :no_action!
+  - :idle_state
