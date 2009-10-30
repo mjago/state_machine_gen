@@ -21,8 +21,10 @@ class StateMachine
   
   def fetch_node_leading_to(to_state)
     $data.size.times do |x|
-      if($data[x][TO_STATE]== to_state)
-        return $data[x]
+      if not $data[x][FROM_STATE] == to_state
+        if($data[x][TO_STATE]== to_state)
+          return $data[x]
+        end
       end
     end
     false

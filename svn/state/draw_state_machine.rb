@@ -1,4 +1,5 @@
 
+
 =begin rdoc
 = generate tertiary_state_machine
 =end
@@ -54,29 +55,37 @@ def draw_state_machine(state_machine_name)
                     read(File.
                          expand_path(File.
                                      join(File.
-                                          dirname(__FILE__),'stateData',"#{state_machine_name}.yml"))))
+                                          dirname(__FILE__),
+                                          'stateData',
+                                          "#{state_machine_name}.yml"))))
   @node_colour = 'red'
-	match_found = false
+  match_found = false
+  direction = 'forward'
   data.each do |st|
-		data.each do |d|
-			if d[FROM_STATE] == st[TO_STATE]
-				match_found = true
-				break
-			end
-		end
-		if match_found == true 
-			puts match_found
-			@node_colour = :cadetblue
-			@text_colour = :black
-			else
-				puts match_found
-			@node_colour = :red
-			@text_colour = :white
-		end
+
+    if st[FROM_STATE] == st[TO_STATE]
+      direction = 'back'
+    end
+    
+    data.each do |d|
+      if d[FROM_STATE] == st[TO_STATE]
+        match_found = true
+        break
+      end
+    end
+    if match_found == true 
+      puts match_found
+      @node_colour = :cadetblue
+      @text_colour = :black
+    else
+      puts match_found
+      @node_colour = :red
+      @text_colour = :white
+    end
 		
     gvr[st[FROM_STATE].to_s.to_sym] [:label => st[FROM_STATE].to_s.gsub("_","\n"),
 		:color => @node_colour, :fontcolor => @text_colour, :fillcolor => @node_colour]
-    (gvr[st[FROM_STATE].to_s.to_sym] >> gvr[st[TO_STATE].to_s.to_sym])[:label => st[TRANSITION].to_s.gsub("_","\n")]
+    (gvr[st[FROM_STATE].to_s.to_sym] >> gvr[st[TO_STATE].to_s.to_sym])[:label => st[TRANSITION].to_s.gsub("_","\n"),:dir => direction]
   end		
   generate_graph(gvr, File.
                  expand_path(File.
