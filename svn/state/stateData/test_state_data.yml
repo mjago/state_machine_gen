@@ -1,5 +1,28 @@
----
+--- 
 - - :init_state
   - :initialised!
   - :idle_state
-
+- - :idle_state
+  - :data_received!
+  - :process_state
+- - :idle_state
+  - :timers_event!
+  - :timers_state
+- - :idle_state
+  - :comms_event!
+  - :comms_state
+- - :idle_state
+  - :shutdown_event!
+  - :shutdown_state
+- - :process_state
+  - :data_processed!
+  - :idle_state
+- - :timers_state
+  - :timers_processed!
+  - :idle_state
+- - :comms_state
+  - :comms_processed!
+  - :idle_state
+- - :shutdown_state
+  - :shutting_down!
+  - :shutdown_state

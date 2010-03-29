@@ -1,4 +1,3 @@
-
 =begin rdoc
 = generate tertiary_state_machine
 =end
