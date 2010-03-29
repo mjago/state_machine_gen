@@ -126,4 +126,3 @@ describe 'StateMachine' do
      end
   end
 end
-

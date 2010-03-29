@@ -1,0 +1,24 @@
+digraph test_state_data {
+  graph [bgcolor = white, label = "\n\nTest State Data", rankdir = "UD"];
+  graph [bgcolor = white, label = "This is a test label", rankdir = "UD"];
+  edge [color = green, fontcolor = darkgreen, fontname = "verdana", fontsize = "16", url = "http://google.com"];
+  node [color = black, fillcolor = red, fontcolor = white, fontname = "verdana", fontsize = "16", shape = circle, style = filled, url = "http://google.com"];
+  init_state [color = cadetblue, fillcolor = cadetblue, fontcolor = black, label = "init\nstate"];
+  init_state -> idle_state [dir = "forward", label = "initialised!"];
+  shutdown_state [color = cadetblue, fillcolor = cadetblue, fontcolor = black, label = "shutdown\nstate"];
+  shutdown_state -> shutdown_state [dir = "back", label = "shutting\ndown!"];
+  comms_state [color = cadetblue, fillcolor = cadetblue, fontcolor = black, label = "comms\nstate"];
+  comms_state -> idle_state [dir = "back", label = "comms\nprocessed!"];
+  timers_state [color = cadetblue, fillcolor = cadetblue, fontcolor = black, label = "timers\nstate"];
+  timers_state -> idle_state [dir = "back", label = "timers\nprocessed!"];
+  process_state [color = cadetblue, fillcolor = cadetblue, fontcolor = black, label = "process\nstate"];
+  process_state -> idle_state [dir = "back", label = "data\nprocessed!"];
+  idle_state [color = cadetblue, fillcolor = cadetblue, fontcolor = black, label = "idle\nstate"];
+  idle_state -> process_state [dir = "back", label = "data\nreceived!"];
+  idle_state [color = cadetblue, fillcolor = cadetblue, fontcolor = black, label = "idle\nstate"];
+  idle_state -> timers_state [dir = "back", label = "timers\nevent!"];
+  idle_state [color = cadetblue, fillcolor = cadetblue, fontcolor = black, label = "idle\nstate"];
+  idle_state -> comms_state [dir = "back", label = "comms\nevent!"];
+  idle_state [color = cadetblue, fillcolor = cadetblue, fontcolor = black, label = "idle\nstate"];
+  idle_state -> shutdown_state [dir = "back", label = "shutdown\nevent!"];
+}
