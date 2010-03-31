@@ -1,5 +1,14 @@
-
 <h2  style="color: red"><%= flash[:notice] %>  </h2>
+
+
+<% harsh(@state_data, :theme => :twilight, :lines => true, :syntax => true) %>
+<% @state_data.each do |line| %>
+<li><%= line %>  </li>
+<% end%>
 
 <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
 width="<%=@svg_width%>" height="<%=@svg_height%>" />
+
+
+
+

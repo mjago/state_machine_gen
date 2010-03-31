@@ -4,18 +4,21 @@
     <%= javascript_include_tag "prototype", "effects" %>
   </head>
   <body>
-    <center>
+
       <h2>State Generator</h2>
 
-<p style="color: green"><%= flash[:notice] %></p>
+Sun, 29 Mar 2009 22:42:20 -0700
 
+</ul>
 
-<!-- p style="color: red;"><%= flash[:notice] %></p --> 
- 
+      <p style="color: black"><%= flash[:notice] %></p>
+      
       <div id="dotsvg">
+
         <!-- An SVG graphic will go here when the form is submitted -->
+
       </div>
-      <% form_remote_tag (:update => "dotsvg", :url => {:action => 'update_dotsvg'}, :loading => "new Element.update('dotsvg','<p> Rendering graph - Please Wait... </p>')", :complete => "new Effect.Highlight('dotsvg');" ) do -%>
+      <% form_remote_tag (:update => "state_data_c", :update => "dotsvg", :url => {:action => 'update_dotsvg'}, :loading => "new Element.update('dotsvg','<p> Rendering graph - Please Wait... </p>')", :complete => "new Effect.Highlight('dotsvg');" ) do -%>
       <br />
       <h3>Enter State Transitions:</h3>
       <h4>from_state -> to_state (transition)</h4>
@@ -25,6 +28,12 @@
       <%= submit_tag "Update" %>
       <% end -%>
 
-    </center>
+      <div id="state_data_c">
+      <p style="color: black"><%= "test" %></p>
+
+      </div>
+      <div id="state_data_h">
+        <!-- An SVG graphic will go here when the form is submitted -->
+      </div>
   </body>
 </html>
