@@ -1,6 +1,7 @@
 
 class GraphvizController < ApplicationController
   def index
+    @code = "hello world"
   end
   
   def update_dotsvg
@@ -15,9 +16,15 @@ class GraphvizController < ApplicationController
     parse_svg=REXML::Document.new(@gvsvg)
     @svg_width=parse_svg.root.attributes["width"].gsub(/pt$/,'').to_i
     @svg_height=parse_svg.root.attributes["height"].gsub(/pt$/,'').to_i
-
     temp = generate_code(params[:graph].to_s )
-    @state_data = temp[0]
+    @state_table_c = temp[0]
+    @state_table_h = temp[1]
+    @state_routines_c = temp[2]
+    @state_routines_h = temp[3]
+  end
+  
+  def state_data
+    @state_data = "this is a test"
   end
   
   def generate_dot text
@@ -216,41 +223,39 @@ STATE_ROUTINES_H
 
   @line_count = 0
   @all_states = []
+  @fsm_states= []
   @from_states = []
   @to_states = []
-  @state_data.each do |fsm|
-    @fsm_states= []
-    fsm.each_line do |line|
-      @line_count += 1
-      if line.include? '->'
-        from_state = line[0..line.index('->') -2].strip
-        line = line[line.index('->') + 2  .. -1].strip
-        to_state = line[0..line.index('(') - 1 ].strip
-        @fsm_states << from_state
-        @fsm_states << to_state
-        @fsm_states.uniq!
+  @state_data.each do |line|
+    @line_count += 1
+    if line.include? '->'
+      from_state = line[0..line.index('->') -2].strip
+      line = line[line.index('->') + 2  .. -1].strip
+      to_state = line[0..line.index('(') - 1 ].strip
+      @fsm_states << from_state
+      @fsm_states << to_state
+      @fsm_states.uniq!
         
-        @all_states << from_state
-        @all_states << to_state
-        @all_states.uniq!
-        @from_states[@line_count] = from_state
-        @to_states[@line_count] = to_state
-      end
+      @all_states << from_state
+      @all_states << to_state
+      @all_states.uniq!
+      @from_states[@line_count] = from_state
+      @to_states[@line_count] = to_state
     end
-    @fsm_states.each do |state|
-      @out_state_routines_c += "\nstate_t #{state}(void)\n"
-      @out_state_routines_c += "{\n    FLOW_check(#{state.upcase});\n\n"
-      @out_state_routines_c += "    \\* code goes here *\\\n\n"
-      @out_state_routines_c += "    return(#{state.upcase});\n"
-      @out_state_routines_c += "}\n"
-      @out_state_routines_h += "state_t #{state}(void);\n"
-      @out_state_table_c += "        #{state},\n"
-      @out_state_table_h += "    #{state.upcase} = #{get_SHA2(state)},\n"
-    end
-    @out_state_table_h += "\n"
-    @out_state_table_c +=   "\n"
-    @out_state_routines_h += "\n"
   end
+  @fsm_states.each do |state|
+    @out_state_routines_c += "\nstate_t #{state}(void)\n"
+    @out_state_routines_c += "{\n    FLOW_check(#{state.upcase});\n\n"
+    @out_state_routines_c += "    \\* code goes here *\\\n\n"
+    @out_state_routines_c += "    return(#{state.upcase});\n"
+    @out_state_routines_c += "}\n"
+    @out_state_routines_h += "state_t #{state}(void);\n"
+    @out_state_table_c += "        #{state},\n"
+    @out_state_table_h += "    #{state.upcase} = #{get_SHA2(state)},\n"
+  end
+  @out_state_table_h += "\n"
+  @out_state_table_c +=   "\n"
+  @out_state_routines_h += "\n"
   @out_state_table_c += state_table_c_end   
   @out_state_routines_h += state_routines_h_end   
   @out_state_table_h += "    STATE_NUM_OF_STATES = #{@all_states.size}\n"
@@ -258,7 +263,7 @@ STATE_ROUTINES_H
   [
    @out_state_table_c,
    @out_state_table_h,
-   @out_state_routines_h,
+   @out_state_routines_c,
    @out_state_routines_h
   ]
 end

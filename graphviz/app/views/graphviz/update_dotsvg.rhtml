@@ -1,13 +1,28 @@
+<%= stylesheet_link_tag :harsh %>
+
 <h2  style="color: red"><%= flash[:notice] %>  </h2>
 
+<h3  style="color: blue"> state_table.c  </h3>
+<%= CodeRay.scan(@state_table_c,:c).page %>
 
-<% harsh(@state_data, :theme => :twilight, :lines => true, :syntax => true) %>
-<% @state_data.each do |line| %>
-<li><%= line %>  </li>
-<% end%>
+<h3  style="color: blue"> state_table.h  </h3>
+<%= CodeRay.scan(@state_table_h,:c).page %>
 
+<h3  style="color: blue"> state_routines.c  </h3>
+<%= CodeRay.scan(@state_routines_c,:c).page %>
+
+<h3  style="color: blue"> state_routines.h  </h3>
+<%= CodeRay.scan(@state_routines_h,:c).page %>
+
+<br />
 <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
 width="<%=@svg_width%>" height="<%=@svg_height%>" />
+
+
+
+
+
+
 
 
 

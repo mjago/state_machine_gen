@@ -2,7 +2,7 @@ namespace :harsh do
   namespace :theme do
     desc 'List available themes'
     task :list do
-      puts `uv -l themes`
+      system ('uv -l themes')
     end
     desc 'Install a theme - either use install[themename] or install THEME=themename'
     task :install, :theme do |task, args|
@@ -19,7 +19,7 @@ namespace :harsh do
       FileUtils.mkdir_p File.join(RAILS_ROOT,"/public/stylesheets/harsh/")
       
       puts "Generating themes..."
-      `uv -s ruby --copy-files #{tmpfolder} #{File.dirname(__FILE__)+"/../README.markdown"}`
+      system('uv -s ruby --copy-files') #{tmpfolder} #{File.dirname(__FILE__)+"/../README.markdown"}`
       
       puts "Copying #{args[:theme]}.css..."
       FileUtils.cp File.join(tmpfolder, "css", "#{args[:theme]}.css"), File.join(RAILS_ROOT, "public", "stylesheets", "harsh")
@@ -36,7 +36,7 @@ namespace :harsh do
   namespace :syntax do
     desc 'List available syntaxes'
     task :list do
-      puts `uv -l syntaxes`
+      system('uv -l syntaxes')
     end
   end
 end

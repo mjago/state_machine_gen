@@ -1,0 +1,13 @@
+
+<%= stylesheet_link_tag :harsh %>
+
+<h2  style="color: red"><%= flash[:notice] %>  </h2>
+
+<h2  style="color: blue"> hello!  </h2>
+
+<object data="data:image/svg+xml;base64,<%=Base64.encode64(@state_data) %>" 
+
+
+<% harsh(@state_data, :lines => false, :syntax => true) %>
+
+
