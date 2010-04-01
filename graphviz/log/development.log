@@ -10592,3 +10592,632 @@ Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 08:56:0
   Parameters: {"commit"=>"Update", "graph"=>["STATE_uip_init_state -> STATE_uip_idle_state (initialised)\nSTATE_uip_idle_state -> STATE_uip_idle_state (initialised)\nSTATE_uip_idle_state -> STATE_uip_process_state (start_processing)\nSTATE_uip_process_state -> STATE_uip_process_state (start_processing)\n\nSTATE_systick_init_state -> STATE_systick_idle_state (initialised)\nSTATE_systick_idle_state -> STATE_systick_idle_state (initialised)\nSTATE_systick_idle_state -> STATE_systick_process_state (start_processing)\nSTATE_systick_process_state -> STATE_systick_process_state (start_processing)\n\nSTATE_usb_init_state -> STATE_usb_idle_state (initialised)\nSTATE_usb_idle_state -> STATE_usb_idle_state (initialised)\nSTATE_usb_idle_state -> STATE_usb_process_state (start_processing)\nSTATE_usb_process_state -> STATE_usb_process_state (start_processing)\n"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg="}
 Rendering graphviz/update_dotsvg
 Completed in 1313ms (View: 141, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-01 10:39:50) [GET]
+
+ActionController::RoutingError (No route matches "/recipe/new" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 10:40:06) [GET]
+Rendering graphviz/index
+Completed in 218ms (View: 203, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:40:11) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["init_state -> idle_state (initialised)\nidle_state -> idle_state (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 2719ms (View: 156, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:41:02) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:41:22) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["start -> uip_init (initialised)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:49:41) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (initialised)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/graphviz_controller.rb:58:in `include?'
+  app/controllers/graphviz_controller.rb:58:in `generate_dot'
+  app/controllers/graphviz_controller.rb:42:in `each_line'
+  app/controllers/graphviz_controller.rb:42:in `generate_dot'
+  app/controllers/graphviz_controller.rb:11:in `update_dotsvg'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:50:44) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (initialised)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/graphviz_controller.rb:58:in `include?'
+  app/controllers/graphviz_controller.rb:58:in `generate_dot'
+  app/controllers/graphviz_controller.rb:42:in `each_line'
+  app/controllers/graphviz_controller.rb:42:in `generate_dot'
+  app/controllers/graphviz_controller.rb:11:in `update_dotsvg'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:50:59) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (initialised)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+
+NoMethodError (undefined method `include' for "STATE_startup":String):
+  app/controllers/graphviz_controller.rb:91:in `generate_dot'
+  app/controllers/graphviz_controller.rb:87:in `each'
+  app/controllers/graphviz_controller.rb:87:in `generate_dot'
+  app/controllers/graphviz_controller.rb:11:in `update_dotsvg'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:52:03) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (initialised)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 265ms (View: 156, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 10:52:26) [GET]
+Rendering graphviz/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:52:46) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 266ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:53:49) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 1235ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:54:25) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 141ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:55:22) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:56:39) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:58:21) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 10:59:36) [GET]
+Rendering graphviz/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 10:59:43) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:01:53) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:02:14) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> uip_init ()"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:02:40) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init ()"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 110ms (View: 32, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:02:52) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 110ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:04:05) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:05:33) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:06:28) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (uip_started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 32, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:07:12) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (uip_started)\nuip_init -> uip_idle (uip_initialised)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 32, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:13:49) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (uip_started)\nuip_init -> uip_idle (uip_initialised)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 11:13:59) [GET]
+Rendering graphviz/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #14 of app/views/graphviz/index.rhtml:
+11:       <td width="20%"><p align="center"><i><b>Category</b></i></td>
+12:       <td width="20%"><p align="center"><i><b>Date</b></i></td>
+13:     </tr>
+14:     <% @recipes.each do |recipe| %>
+15:       <tr>
+16:         <td>
+17:         <%= link_to recipe.title, 
+
+    app/views/graphviz/index.rhtml:14:in `_run_rhtml_app47views47graphviz47index46rhtml'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 11:14:25) [GET]
+Rendering graphviz/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #14 of app/views/graphviz/index.rhtml:
+11:       <td width="20%"><p align="center"><i><b>Category</b></i></td>
+12:       <td width="20%"><p align="center"><i><b>Date</b></i></td>
+13:     </tr>
+14:     <% @recipes.each do |recipe| %>
+15:       <tr>
+16:         <td>
+17:         <%= link_to recipe.title, 
+
+    app/views/graphviz/index.rhtml:14:in `_run_rhtml_app47views47graphviz47index46rhtml'
+
+Rendered rescues/_trace (297.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 11:17:08) [GET]
+Rendering graphviz/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #13 of app/views/graphviz/index.rhtml:
+10:       <td width="20%"><p align="center"><i><b>Category</b></i></td>
+11:       <td width="20%"><p align="center"><i><b>Date</b></i></td>
+12:     </tr>
+13:     <% @state_machines.each do |fsm| %>
+14:       <tr>
+15:         <td>
+16:         <%= link_to fsm.title, 
+
+    app/views/graphviz/index.rhtml:13:in `_run_rhtml_app47views47graphviz47index46rhtml'
+
+Rendered rescues/_trace (312.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 11:18:05) [GET]
+Rendering graphviz/index
+Completed in 15ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#new (for 127.0.0.1 at 2010-04-01 11:18:10) [GET]
+
+ActionController::UnknownAction (No action responded to new. Actions: generate_dot, index, state_data, and update_dotsvg):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 11:19:31) [GET]
+Rendering graphviz/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:19:34) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (initialised)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:19:49) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (initialised)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:20:03) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (initialised)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 235ms (View: 141, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:37:59) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 94, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:54:24) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 141ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 11:57:07) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_departures -> uip_idle (departures_processed)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#update_dotsvg (for 127.0.0.1 at 2010-04-01 16:27:19) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_departures -> uip_idle (departures_processed)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+
+SyntaxError (C:/state_machine_gen/graphviz/app/controllers/graphviz_controller.rb:374: syntax error, unexpected tIVAR, expecting ']'
+C:/state_machine_gen/graphviz/app/controllers/graphviz_controller.rb:376: syntax error, unexpected ']', expecting kEND):
+  
+
+Rendered rescues/_trace (281.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 16:27:51) [GET]
+Rendering graphviz/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 16:27:54) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_departures -> uip_idle (departures_processed)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 1297ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 16:30:28) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_departures -> uip_idle (departures_processed)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+ERROR: compiling _run_rhtml_app47views47graphviz47update_dotsvg46rhtml RAISED compile error
+C:/state_machine_gen/graphviz/app/views/graphviz/update_dotsvg.rhtml:25: syntax error, unexpected tNEQ, expecting kEND
+@output_buffer.concat "width=\""; @output_buffer.concat((@svg_width).to_s); @output_buffer.concat "\" height=\""; !=@svg_height; @output_buffer.concat "\" />\n"
+                                                                                                                    ^
+Function body:           def _run_rhtml_app47views47graphviz47update_dotsvg46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat(( stylesheet_link_tag :harsh ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h2  style=\"color: red\">"; @output_buffer.concat(( flash[:notice] ).to_s); @output_buffer.concat "  </h2>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> state_table.c  </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@state_table_c,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> state_table.h  </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@state_table_h,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> state_routines.c  </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@state_routines_c,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> state_routines.h  </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@state_routines_h,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> function_hash.c  </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@function_hash_c,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> function_hash_h </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@function_hash_h,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<br />\n"
+@output_buffer.concat "<object data=\"data:image/svg+xml;base64,"; @output_buffer.concat((Base64.encode64(@gvsvg) ).to_s); @output_buffer.concat "\" \n"
+@output_buffer.concat "width=\""; @output_buffer.concat((@svg_width).to_s); @output_buffer.concat "\" height=\""; !=@svg_height; @output_buffer.concat "\" />\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/state_machine_gen/graphviz/app/views/graphviz/update_dotsvg.rhtml:39:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/state_machine_gen/graphviz/app/views/graphviz/update_dotsvg.rhtml:25: syntax error, unexpected tNEQ, expecting kEND
+@output_buffer.concat "width=\""; @output_buffer.concat((@svg_width).to_s); @output_buffer.concat "\" height=\""; !=@svg_height; @output_buffer.concat "\" />\n"
+                                                                                                                    ^) on line #25 of app/views/graphviz/update_dotsvg.rhtml:
+22: 
+23: <br />
+24: <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
+25: width="<%=@svg_width%>" height="<%!=@svg_height%>" />
+
+    app/views/graphviz/update_dotsvg.rhtml:39:in `compile!'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 16:31:30) [GET]
+Rendering graphviz/index
+Completed in 0ms (View: 0, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 16:31:33) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_departures -> uip_idle (departures_processed)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+ERROR: compiling _run_rhtml_app47views47graphviz47update_dotsvg46rhtml RAISED compile error
+C:/state_machine_gen/graphviz/app/views/graphviz/update_dotsvg.rhtml:25: syntax error, unexpected tNEQ, expecting kEND
+@output_buffer.concat "width=\""; @output_buffer.concat((@svg_width).to_s); @output_buffer.concat "\" height=\""; !=@svg_height; @output_buffer.concat "\" />\n"
+                                                                                                                    ^
+Function body:           def _run_rhtml_app47views47graphviz47update_dotsvg46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat(( stylesheet_link_tag :harsh ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h2  style=\"color: red\">"; @output_buffer.concat(( flash[:notice] ).to_s); @output_buffer.concat "  </h2>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> state_table.c  </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@state_table_c,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> state_table.h  </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@state_table_h,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> state_routines.c  </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@state_routines_c,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> state_routines.h  </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@state_routines_h,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> function_hash.c  </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@function_hash_c,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<h3  style=\"color: blue\"> function_hash_h </h3>\n"
+@output_buffer.concat(( CodeRay.scan(@function_hash_h,:c).page ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "<br />\n"
+@output_buffer.concat "<object data=\"data:image/svg+xml;base64,"; @output_buffer.concat((Base64.encode64(@gvsvg) ).to_s); @output_buffer.concat "\" \n"
+@output_buffer.concat "width=\""; @output_buffer.concat((@svg_width).to_s); @output_buffer.concat "\" height=\""; !=@svg_height; @output_buffer.concat "\" />\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/state_machine_gen/graphviz/app/views/graphviz/update_dotsvg.rhtml:39:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/state_machine_gen/graphviz/app/views/graphviz/update_dotsvg.rhtml:25: syntax error, unexpected tNEQ, expecting kEND
+@output_buffer.concat "width=\""; @output_buffer.concat((@svg_width).to_s); @output_buffer.concat "\" height=\""; !=@svg_height; @output_buffer.concat "\" />\n"
+                                                                                                                    ^) on line #25 of app/views/graphviz/update_dotsvg.rhtml:
+22: 
+23: <br />
+24: <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
+25: width="<%=@svg_width%>" height="<%!=@svg_height%>" />
+
+    app/views/graphviz/update_dotsvg.rhtml:39:in `compile!'
+
+Rendered rescues/_trace (218.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-01 16:32:41) [GET]
+Rendering graphviz/index
+Completed in 125ms (View: 109, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 16:32:44) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_departures -> uip_idle (departures_processed)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 16:35:51) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_arrivals -> uip_arrivals_error (arrivals_error)\nuip_arrivals_error -> uip_process_arrivals (arrivals_error_processed)\nuip_process_departures -> uip_idle (departures_processed)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 16:40:05) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_arrivals -> uip_arrivals_error (arrivals_error)\nuip_arrivals_error -> uip_process_arrivals (arrivals_error_processed)\nuip_process_departures -> uip_idle (departures_processed)\n\nui_startup -> ui_init (started)\nui_init -> ui_idle (initialised)\nui_idle -> ui_idle (no_process)\nui_idle -> ui_process_arrivals (process)\nui_process_arrivals -> ui_process_departures (arrivals_processed)\nui_process_arrivals -> ui_arrivals_error (arrivals_error)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 297ms (View: 141, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]

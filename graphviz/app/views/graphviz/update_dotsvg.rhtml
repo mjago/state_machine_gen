@@ -14,6 +14,12 @@
 <h3  style="color: blue"> state_routines.h  </h3>
 <%= CodeRay.scan(@state_routines_h,:c).page %>
 
+<h3  style="color: blue"> function_hash.c  </h3>
+<%= CodeRay.scan(@function_hash_c,:c).page %>
+
+<h3  style="color: blue"> function_hash_h </h3>
+<%= CodeRay.scan(@function_hash_h,:c).page %>
+
 <br />
 <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
 width="<%=@svg_width%>" height="<%=@svg_height%>" />
