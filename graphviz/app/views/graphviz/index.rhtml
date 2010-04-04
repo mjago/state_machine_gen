@@ -1,34 +1,32 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
-    <title> State Generator</title>
     <%= javascript_include_tag "prototype", "effects" %>
   </head>
   <body>
-<center>
-      <h2>State Generator</h2>
-
-</ul>
-
-      <p style="color: black"><%= flash[:notice] %></p>
-      
+    <center>
       <div id="dotsvg">
-
         <!-- An SVG graphic will go here when the form is submitted -->
-
       </div>
 
-<% form_remote_tag (:update => "dotsvg", :url => {:action => 'update_dotsvg'}, :loading => "new Element.update('dotsvg','<p> Rendering data - Please Wait... </p>')", :complete => "new Effect.Highlight('dotsvg');" ) do -%>
+      <% form_remote_tag (:update => "dotsvg", :url => {:action => 'update_dotsvg'}, :loading => "new Element.update('dotsvg','<img src=\"/images/spinner.gif\">')", :complete => "new Effect.Highlight('dotsvg');" ) do -%>
       <br />
-
+      
       <h3>Enter State Transitions:</h3>
-      <h4>from_state -> to_state (transition)</h4>
-      <%= text_area :graph, @graph, :cols => 80, :rows => 10 %>
+      <br><h4>from_state -> to_state (transition)</h4>
+      <br><input type="checkbox" id="display_source" name="display_source" value="false" />
+      <label for="display_source">Display Source</label>  
+      <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+      <br><%= select_tag "payment", options_for_select([ "uip", "usb", "systick" ], "state_name") %>
+      <br><%= text_area :graph, @graph, :cols => 80, :rows => 10 %>
       <br />
       
       <%= submit_tag "Update" %>
       <% end -%>
 
     </center>
-
+    <br />
   </body>
 </html>
+

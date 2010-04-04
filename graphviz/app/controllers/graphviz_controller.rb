@@ -1,13 +1,20 @@
 
 class GraphvizController < ApplicationController
+  def initialize
+    @devices = ["Controller","Safety","GUI"]
+    @selected_device = @devices[0]
+  end
   def index
     @code = "hello world"
   end
   
   def update_dotsvg
+    @devices = ["Controller","Safety","GUI"]
+    @selected_device = @devices[0]
 #    flash[:notice] = "ERROR: Syntax error"
 #     flash[:notice] = "ERROR: Syntax error on line #{line_count}: \"#{line.gsub("\n",'').strip}\""
-#      redirect_to :action => 'index' 
+    #      redirect_to :action => 'index'
+
     temp = generate_dot( params[:graph].to_s )
     gv=IO.popen("C:/graphviz/bin/dot -q -Tsvg", "w+")
     gv.puts "digraph G{", temp , "}"
@@ -16,13 +23,20 @@ class GraphvizController < ApplicationController
     parse_svg=REXML::Document.new(@gvsvg)
     @svg_width=parse_svg.root.attributes["width"].gsub(/pt$/,'').to_i
     @svg_height=parse_svg.root.attributes["height"].gsub(/pt$/,'').to_i
-    temp = generate_code(params[:graph].to_s )
-    @state_table_c = temp[0]
-    @state_table_h = temp[1]
-    @state_routines_c = temp[2]
-    @state_routines_h = temp[3]
-    @function_hash_c = temp[4]
-    @function_hash_h = temp[5]
+    puts "@options = #{@options.inspect}"
+    puts "@puppy = #{@puppy.inspect}"
+    puts "params[] = #{params.inspect}"
+
+    if params[:display_source]
+      temp = generate_code(params[:graph].to_s )
+      @state_table_c = temp[0]
+      @state_table_h = temp[1]
+      @state_routines_c = temp[2]
+      @state_routines_h = temp[3]
+      @function_hash_c = temp[4]
+      @function_hash_h = temp[5]
+    end
+    
   end
   
   def state_data
@@ -57,7 +71,7 @@ class GraphvizController < ApplicationController
             to_states << to_state
             transition = line[line.index('(') + 1 .. line.index(')') - 1].strip
             if transitions.include? transition
-              flash[:notice] = "ERROR: line #{line_count}, missing \")\": #{line.strip} "
+              flash.now[:notice] = "ERROR: line #{line_count}, missing \")\": #{line.strip} "
             else
               transitions << transition
             end
@@ -71,17 +85,17 @@ class GraphvizController < ApplicationController
               out_string += "#{to_state} [label = \"  #{to_state.gsub("STATE_","").gsub('_','  \n  ')}  \"]\n"
             end
             out_string += "#{from_state} -> #{to_state}"
-            out_string += " [#{from_state == to_state ? 'dir = back, ' : ''}label = \"  #{transition.gsub('_','  \n  ')}!  \"]\n"
+            out_string += " [#{from_state == to_state ? 'dir = back, ' : ''}label = \"  #{transition.gsub('_','  \n  ').gsub(' ','  \n  ')}!  \"]\n"
             next
           else
-            flash[:notice] = "ERROR: line #{line_count}, missing \")\": #{line.strip} "
+            flash.now[:notice] = "ERROR: line #{line_count}, missing \")\": #{line.strip} "
           end
         else
-            flash[:notice] = "ERROR: line #{line_count}, missing \"(\": #{line.strip} "
+            flash.now[:notice] = "ERROR: line #{line_count}, missing \"(\": #{line.strip} "
 #            flash[:notice] = "ERROR: Syntax error on line #{line_count}: \"#{line.strip}\" - missing \"(\""
         end
       else
-            flash[:notice] = "ERROR: line #{line_count}, missing \"->\": #{line.strip} "
+            flash.now[:notice] = "ERROR: line #{line_count}, missing \"->\": #{line.strip} "
 #            flash[:notice] = "ERROR: Syntax error on line #{line_count}: \"#{line.strip}\" - missing \"->\""
       end
 #          flash[:notice] = "ERROR: Syntax error"

@@ -1,6 +1,16 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
 <%= stylesheet_link_tag :harsh %>
 
+<% flash.each do |key, msg| %>
+<%= content_tag :div, msg, :id => key %>
 <h2  style="color: red"><%= flash[:notice] %>  </h2>
+<% end %>
+
+<!-- % if draw_source -% -->
+<% if params[:display_source] -%>
 
 <h3  style="color: blue"> state_table.c  </h3>
 <%= CodeRay.scan(@state_table_c,:c).page %>
@@ -19,6 +29,8 @@
 
 <h3  style="color: blue"> function_hash_h </h3>
 <%= CodeRay.scan(@function_hash_h,:c).page %>
+
+<% end %>
 
 <br />
 <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
