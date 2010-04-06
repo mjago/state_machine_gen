@@ -1,20 +1,30 @@
 
 class GraphvizController < ApplicationController
   def initialize
-    @devices = ["Controller","Safety","GUI"]
+    @devices = ["Select Device","Controller","Safety","GUI"]
     @selected_device = @devices[0]
+    @modules = ["Select Module","uip","usb"]
+    @selected_module = @modules[0]
+    @graph_types = ["State       ","Flow        "]
+    @selected_graph = @graph_types[0]
   end
+  
   def index
+     File.open("uip.state","r") do |f|
+       params[:graph] = "test"
+     end
     @code = "hello world"
   end
   
   def update_dotsvg
-    @devices = ["Controller","Safety","GUI"]
-    @selected_device = @devices[0]
-#    flash[:notice] = "ERROR: Syntax error"
-#     flash[:notice] = "ERROR: Syntax error on line #{line_count}: \"#{line.gsub("\n",'').strip}\""
-    #      redirect_to :action => 'index'
-
+#     @devices = ["Select Device","Controller","Safety","GUI"]
+#     @selected_device = @devices[0]
+#     @modules = ["Select Module","uip","usb"]
+#     @selected_module = @modules[0]
+    File.open("uip.state","w") do |f|
+      f.write params[:graph].to_s
+    end
+    
     temp = generate_dot( params[:graph].to_s )
     gv=IO.popen("C:/graphviz/bin/dot -q -Tsvg", "w+")
     gv.puts "digraph G{", temp , "}"
@@ -23,10 +33,7 @@ class GraphvizController < ApplicationController
     parse_svg=REXML::Document.new(@gvsvg)
     @svg_width=parse_svg.root.attributes["width"].gsub(/pt$/,'').to_i
     @svg_height=parse_svg.root.attributes["height"].gsub(/pt$/,'').to_i
-    puts "@options = #{@options.inspect}"
-    puts "@puppy = #{@puppy.inspect}"
-    puts "params[] = #{params.inspect}"
-
+    
     if params[:display_source]
       temp = generate_code(params[:graph].to_s )
       @state_table_c = temp[0]

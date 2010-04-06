@@ -16765,3 +16765,2606 @@ ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" w
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:13:43) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 359ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:13:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:13:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:13:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:13:47) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:13:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:13:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:13:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:23:46) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/graphviz_controller.rb:5:in `initialize'
+  app/controllers/graphviz_controller.rb:4:in `open'
+  app/controllers/graphviz_controller.rb:4:in `initialize'
+
+Rendered rescues/_trace (93.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:24:08) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/graphviz_controller.rb:5:in `initialize'
+  app/controllers/graphviz_controller.rb:4:in `open'
+  app/controllers/graphviz_controller.rb:4:in `initialize'
+
+Rendered rescues/_trace (969.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:24:15) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/graphviz_controller.rb:5:in `initialize'
+  app/controllers/graphviz_controller.rb:4:in `open'
+  app/controllers/graphviz_controller.rb:4:in `initialize'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:24:26) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 281ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:24:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:24:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:24:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:24:42) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/graphviz_controller.rb:5:in `initialize'
+
+Rendered rescues/_trace (328.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:25:28) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 265ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:25:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:25:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:25:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:25:32) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:25:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:25:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:25:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:26:00) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 484ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:26:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:26:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:26:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:26:45) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 281ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:26:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:26:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:26:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:27:10) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 282ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:27:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:27:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:27:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:33:35) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"usb", "selected_device"=>{"id"=>"Safety"}}
+Rendering graphviz/update_dotsvg
+Completed in 297ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:33:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:33:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:33:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:33:39) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"usb", "selected_device"=>{"id"=>"Safety"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:33:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:33:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:33:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:33:44) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"usb", "selected_device"=>{"id"=>"Safety"}}
+Rendering graphviz/update_dotsvg
+Completed in 390ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:33:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:33:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:33:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 15:34:08) [GET]
+
+NoMethodError (undefined method `to_s=' for nil:NilClass):
+  app/controllers/graphviz_controller.rb:9:in `index'
+  app/controllers/graphviz_controller.rb:8:in `open'
+  app/controllers/graphviz_controller.rb:8:in `index'
+
+Rendered rescues/_trace (141.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 15:35:08) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:35:34) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9) "], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 266ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:35:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:35:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:35:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:35:43) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9) "], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 281ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:35:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:35:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:35:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:36:44) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9) "], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"usb", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 500ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:36:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:36:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:36:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 15:37:07) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:37:15) [POST]
+  Parameters: {"commit"=>"Save changes", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 266ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:17) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:37:23) [POST]
+  Parameters: {"commit"=>"Save changes", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Safety"}}
+Rendering graphviz/update_dotsvg
+Completed in 500ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:37:28) [POST]
+  Parameters: {"commit"=>"Save changes", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Safety"}}
+Rendering graphviz/update_dotsvg
+Completed in 297ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:37:34) [POST]
+  Parameters: {"commit"=>"Save changes", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}}
+Rendering graphviz/update_dotsvg
+Completed in 266ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:37:45) [POST]
+  Parameters: {"commit"=>"Save changes", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"GUI"}}
+Rendering graphviz/update_dotsvg
+Completed in 281ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:37:53) [POST]
+  Parameters: {"commit"=>"Save changes", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"usb", "selected_device"=>{"id"=>"GUI"}}
+Rendering graphviz/update_dotsvg
+Completed in 281ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:37:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:39:44) [POST]
+  Parameters: {"commit"=>"Save changes", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"usb", "selected_device"=>{"id"=>"GUI"}}
+Rendering graphviz/update_dotsvg
+Completed in 265ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:39:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:39:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:39:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:39:50) [POST]
+  Parameters: {"commit"=>"Save changes", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"usb", "selected_device"=>{"id"=>"GUI"}}
+Rendering graphviz/update_dotsvg
+Completed in 281ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:39:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:39:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:39:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 15:39:55) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 78ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 15:39:59) [POST]
+  Parameters: {"commit"=>"Add SI", "graph"=>["startup -> init (started)\ninit -> aaa (initialised)\naaa -> bbb (trans one)\nbbb -> ccc (trans two)\nccc -> aaa (trans three)\n\nstartup -> aa (start)\naa -> bb(trans 4)\nbb -> cc (trans 5)\n\ncc -> aa (trans 6)\n\nstartup -> a (start)\na -> b(trans 74)\nb -> c (trans 5)\nc -> a (trans 6)\n7 -> 8 (trans 9)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"usb", "selected_device"=>{"id"=>"GUI"}}
+Rendering graphviz/update_dotsvg
+Completed in 266ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:40:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:40:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 15:40:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 15:41:19) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:10:23) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.map) on line #25 of app/views/graphviz/index.rhtml:
+22:       <br><input type="checkbox" id="display_source" name="display_source" value="false" />
+23:       <label for="display_source">Display Source</label>  
+24:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+25:       <br><%= select ("selected_module", "id", @modules.map {|d| d}) %>
+26:       <br><%= select_tag "payment", options_for_select([ "uip", "usb", "systick" ], "state_name") %>
+27:       <br><%= text_area :graph, @graph, :cols => 80, :rows => 10 %>
+28:       <br />
+
+    app/views/graphviz/index.rhtml:25:in `_run_rhtml_app47views47graphviz47index46rhtml'
+    app/views/graphviz/index.rhtml:13:in `_run_rhtml_app47views47graphviz47index46rhtml'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:11:12) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.map) on line #25 of app/views/graphviz/index.rhtml:
+22:       <br><input type="checkbox" id="display_source" name="display_source" value="false" />
+23:       <label for="display_source">Display Source</label>  
+24:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+25:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+26:       <br><%= select_tag "payment", options_for_select([ "uip", "usb", "systick" ], "state_name") %>
+27:       <br><%= text_area :graph, @graph, :cols => 80, :rows => 10 %>
+28:       <br />
+
+    app/views/graphviz/index.rhtml:25:in `_run_rhtml_app47views47graphviz47index46rhtml'
+    app/views/graphviz/index.rhtml:13:in `_run_rhtml_app47views47graphviz47index46rhtml'
+
+Rendered rescues/_trace (704.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:11:17) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.map) on line #25 of app/views/graphviz/index.rhtml:
+22:       <br><input type="checkbox" id="display_source" name="display_source" value="false" />
+23:       <label for="display_source">Display Source</label>  
+24:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+25:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+26:       <br><%= select_tag "payment", options_for_select([ "uip", "usb", "systick" ], "state_name") %>
+27:       <br><%= text_area :graph, @graph, :cols => 80, :rows => 10 %>
+28:       <br />
+
+    app/views/graphviz/index.rhtml:25:in `_run_rhtml_app47views47graphviz47index46rhtml'
+    app/views/graphviz/index.rhtml:13:in `_run_rhtml_app47views47graphviz47index46rhtml'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:12:47) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:13:05) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>[""], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 375ms (View: 235, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:13:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:13:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:13:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:13:12) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>[""], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:13:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:13:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:13:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:13:54) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:13:57) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:14:16) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:14:29) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>[""], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:14:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:14:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:14:30) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:14:48) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:14:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:14:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:14:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:15:06) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["aaa -> bbb (ccc)\nbbb -> aaa(ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:15:07) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:15:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:15:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:18:18) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:18:23) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["aaa -> bbb (ccc)\nbbb -> aaa(ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:18:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:18:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:18:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:19:14) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["aaa -> bbb (ccc)\nbbb -> aaa(ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"uip", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:19:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:19:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:19:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:19:21) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 47ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:19:26) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State"}, "graph"=>["aaa -> bbb (ccc)\nbbb -> aaa(ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"1", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 157ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:19:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:19:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:19:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:19:52) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State"}, "graph"=>["aaa -> bbb (ccc)\nbbb -> aaa(ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"1", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:19:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:19:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:19:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:20:43) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State"}, "graph"=>["aaa -> bbb (ccc)\nbbb -> aaa(ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"1", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:20:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:20:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:20:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:21:40) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow"}, "graph"=>["aaa -> bbb (ccc)\nbbb -> aaa(ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "payment"=>"1", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:21:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:21:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:21:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:21:45) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:22:01) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 16ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-04 17:22:25) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:23:05) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>[""], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:06) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:23:10) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 344ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:23:19) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q->"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:23:26) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q->("], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:23:30) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q->()"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 171ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:23:46) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q-> r(s)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:23:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:24:00) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q -> r(s)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 157ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:24:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q-> r(s)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:24:14) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q->r(s)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:24:20) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q->r(s)q->r(s)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:24:26) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q->r(s)q- >r(s)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:24:36) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["q->r(s)q- >r(s)fsjfkl;afjdkjf;as"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:24:56) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["a-b(c)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:24:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:25:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["a->b(c)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:25:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:25:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:25:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:26:56) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["a-> b(c)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:26:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:26:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:26:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:27:20) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["a -> b(c)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:27:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:27:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:27:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:27:30) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["a -> b(c)\nTitle"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:27:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:27:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:27:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:27:42) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["a -> b(c)\nTitle -> ()"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:27:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:27:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:27:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:28:01) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["a -> b(c)\nTitle -> ()ssssssssssssss"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:28:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:28:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:28:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:28:31) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["a -> b (c)\n"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:28:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:28:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:28:32) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:28:59) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["a -> b (c)\n"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:29:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:29:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:29:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:29:26) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["a -> b (c)\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\n"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:29:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:29:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:29:28) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:29:41) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["a -> b (c)\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\na"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 157ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:29:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:29:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:29:43) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:30:05) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>[""], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:30:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:30:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:30:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-04 17:30:25) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 235ms (View: 78, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:30:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:30:26) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-04 17:30:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:16:46) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 766ms (View: 469, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:16:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:16:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:16:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-05 10:17:06) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 94ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:17:23) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 234ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:17:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:17:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:17:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-05 10:19:54) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 532ms (View: 516, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:20:07) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 281ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:08) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:20:15) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:16) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:20:21) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 297ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:20:27) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:29) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:20:32) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 344ms (View: 32, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:34) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:20:43) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 422ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:20:47) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 235ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:20:50) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:20:54) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 219ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:20:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:21:00) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:21:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:21:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:21:02) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:21:09) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 235ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:21:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:21:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:21:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-05 10:30:00) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 93ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:30:21) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 266ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:30:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:30:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:30:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-05 10:31:34) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 141ms (View: 125, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:31:44) [POST]
+  Parameters: {"commit"=>"Do Something", "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg="}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:44) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:31:48) [POST]
+  Parameters: {"commit"=>"Do Something", "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg="}
+Rendering graphviz/update_dotsvg
+Completed in 157ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:31:51) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:52) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:31:54) [POST]
+  Parameters: {"commit"=>"Do Something", "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg="}
+Rendering graphviz/update_dotsvg
+Completed in 282ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/_css.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-05 10:31:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/harsh/twilight.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:31:58) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-05 10:37:23) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 438ms (View: 438, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:37:29) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 297ms (View: 94, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:37:33) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 219ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:37:36) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 438ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:37:40) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:37:44) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:37:48) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-05 10:37:52) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["aaa -> bbb (ccc)"], "authenticity_token"=>"mGQbGnOkSIeCLA9CaNNVa7+ktDwZKllFUm/5+AH83qg=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 703ms (View: 375, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
