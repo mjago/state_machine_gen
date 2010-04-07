@@ -11221,3 +11221,1250 @@ Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-01 16:40:0
   Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_arrivals -> uip_arrivals_error (arrivals_error)\nuip_arrivals_error -> uip_process_arrivals (arrivals_error_processed)\nuip_process_departures -> uip_idle (departures_processed)\n\nui_startup -> ui_init (started)\nui_init -> ui_idle (initialised)\nui_idle -> ui_idle (no_process)\nui_idle -> ui_process_arrivals (process)\nui_process_arrivals -> ui_process_departures (arrivals_processed)\nui_process_arrivals -> ui_arrivals_error (arrivals_error)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
 Rendering graphviz/update_dotsvg
 Completed in 297ms (View: 141, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-06 10:28:16) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_arrivals -> uip_arrivals_error (arrivals_error)\nuip_arrivals_error -> uip_process_arrivals (arrivals_error_processed)\nuip_process_departures -> uip_idle (departures_processed)\n\nui_startup -> ui_init (started)\nui_init -> ui_idle (initialised)\nui_idle -> ui_idle (no_process)\nui_idle -> ui_process_arrivals (process)\nui_process_arrivals -> ui_process_departures (arrivals_processed)\nui_process_arrivals -> ui_arrivals_error (arrivals_error)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 2688ms (View: 172, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-06 10:31:25) [POST]
+  Parameters: {"commit"=>"Update", "graph"=>["uip_startup -> uip_init (started)\nuip_init -> uip_idle (initialised)\nuip_idle -> uip_idle (no_process)\nuip_idle -> uip_process_arrivals (process)\nuip_process_arrivals -> uip_process_departures (arrivals_processed)\nuip_process_arrivals -> uip_arrivals_error (arrivals_error)\nuip_arrivals_error -> uip_process_arrivals (arrivals_error_processed)\nuip_process_departures -> uip_idle (departures_processed)\n\nui_startup -> ui_init (started)\nui_init -> ui_idle (initialised)\nui_idle -> ui_idle (no_process)\nui_idle -> ui_process_arrivals (process)\nui_process_arrivals -> ui_process_departures (arrivals_processed)\nui_process_arrivals -> ui_arrivals_error (arrivals_error)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 282ms (View: 110, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-06 10:31:33) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 140ms (View: 140, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-07 17:23:25) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 3954ms (View: 3031, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:23:48) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 3172ms (View: 141, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:24:05) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 407ms (View: 63, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:24:33) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 375ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:24:52) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> idle (process complete)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 266ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:25:11) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 281ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:25:39) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> alarm_response (alarm sounded)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 703ms (View: 62, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:28:13) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting alarm response)\nalarm_response -> idle (alarm responded to)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:29:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (still processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting alarm response)\nalarm_response -> idle (alarm responded to)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:29:34) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting alarm response)\nalarm_response -> idle (alarm responded to)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:31:19) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle_state (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:31:42) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:32:16) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 656ms (View: 390, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:33:51) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 204ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:34:02) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:43:49) [POST]
+  Parameters: {"commit"=>"Do Something", "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 78, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:43:53) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 78, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:47:33) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 704ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:48:05) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 171ms (View: 46, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:49:20) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 46, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:49:40) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+
+NoMethodError (undefined method `value' for :selected_device:Symbol):
+  app/controllers/graphviz_controller.rb:295:in `generate_code'
+  app/controllers/graphviz_controller.rb:38:in `update_dotsvg'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:49:55) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 46, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:50:25) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+
+NoMethodError (undefined method `[]' for :selected_device:Symbol):
+  app/controllers/graphviz_controller.rb:295:in `generate_code'
+  app/controllers/graphviz_controller.rb:38:in `update_dotsvg'
+
+Rendered rescues/_trace (297.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:50:59) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:51:30) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:51:47) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 312ms (View: 172, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:52:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:52:45) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:55:20) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 313ms (View: 172, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:55:53) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:56:29) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:57:56) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 235ms (View: 78, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:58:13) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 17:58:32) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:00:42) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 218ms (View: 46, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:01:42) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 297ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:03:17) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:05:53) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 438ms (View: 219, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:08:00) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:09:36) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:09:40) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 468ms (View: 312, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:09:41) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:09:43) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:09:45) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:09:46) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:09:50) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 171ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:09:51) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 46, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:09:53) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:09:59) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 63, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:10:01) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:10:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 344ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:10:05) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 78, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:10:06) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:10:08) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 485ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:10:23) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 204ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:10:57) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 31, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:15:56) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+
+Errno::ENOENT (No such file or directory - C:/state_machine_gen/graphviz/app/controllers/graph_data/uip.state):
+  app/controllers/graphviz_controller.rb:26:in `initialize'
+  app/controllers/graphviz_controller.rb:26:in `open'
+  app/controllers/graphviz_controller.rb:26:in `update_dotsvg'
+
+Rendered rescues/_trace (235.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:16:32) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 187ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:16:54) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 204ms (View: 63, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:20:29) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 500ms (View: 63, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:20:31) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 188ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:20:46) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:20:57) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:21:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:21:10) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"Flow        "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 141ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:21:18) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:22:00) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 141ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:22:08) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:22:44) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:23:02) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:23:13) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:24:48) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 266ms (View: 125, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:24:57) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:25:07) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 141ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:25:16) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:25:27) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 344ms (View: 141, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:25:49) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 141ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:25:59) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 141ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:26:05) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 141ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:26:07) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:26:17) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:28:20) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:28:23) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:28:26) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:28:28) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:28:30) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:29:46) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 141ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:29:48) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:29:52) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:29:55) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 140ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:29:56) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 141ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:30:02) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:30:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:30:34) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> process (process request)\nprocess -> process (processing)\nprocess -> idle (process complete)\nprocess -> sound_alarm (error detected)\nsound_alarm -> log_alarm (alarm sounded)\nlog_alarm -> alarm_response (alarm logged)\nalarm_response -> alarm_response (awaiting mute request)\nalarm_response -> mute_alarm (mute request)\nmute_alarm -> idle (muted)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 47, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-07 18:30:38) [GET]
+
+NoMethodError (undefined method `read_lines' for #<File:uip.state (closed)>):
+  app/controllers/graphviz_controller.rb:18:in `index'
+  app/controllers/graphviz_controller.rb:17:in `open'
+  app/controllers/graphviz_controller.rb:17:in `index'
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-07 18:31:09) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:31:21) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>[""], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:31:31) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>[""], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:31:38) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>[""], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:32:26) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>[""], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 63ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:32:35) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>[""], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:32:39) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>[""], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:33:01) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init\ninit -> idle\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:33:15) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:33:30) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:33:47) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:33:57) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:34:05) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:34:09) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 110ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:34:13) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:34:22) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:34:35) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:34:51) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"usb"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:35:01) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 250ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:35:05) [POST]
+  Parameters: {"commit"=>"Do Something", "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/graphviz_controller.rb:29:in `update_dotsvg'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:35:24) [POST]
+  Parameters: {"commit"=>"Do Something", "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU="}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/controllers/graphviz_controller.rb:29:in `update_dotsvg'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:35:54) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:40:34) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 313ms (View: 141, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:40:45) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:40:49) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:40:55) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:41:02) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:41:09) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 110ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:41:19) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:41:27) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 110ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:42:37) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 110ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:42:46) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:42:58) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:43:05) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:43:18) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:44:01) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+
+ActionView::TemplateError (can't convert nil into String) on line #34 of app/views/graphviz/update_dotsvg.rhtml:
+31: <% end %>
+32: 
+33: <br />
+34: <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
+35: width="<%=@svg_width%>" height="<%=@svg_height%>" />
+
+    c:/ruby/lib/ruby/1.8/base64.rb:97:in `pack'
+    c:/ruby/lib/ruby/1.8/base64.rb:97:in `encode64'
+    app/views/graphviz/update_dotsvg.rhtml:34:in `_run_rhtml_app47views47graphviz47update_dotsvg46rhtml'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:44:31) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+
+ActionView::TemplateError (can't convert nil into String) on line #34 of app/views/graphviz/update_dotsvg.rhtml:
+31: <% end %>
+32: 
+33: <br />
+34: <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
+35: width="<%=@svg_width%>" height="<%=@svg_height%>" />
+
+    c:/ruby/lib/ruby/1.8/base64.rb:97:in `pack'
+    c:/ruby/lib/ruby/1.8/base64.rb:97:in `encode64'
+    app/views/graphviz/update_dotsvg.rhtml:34:in `_run_rhtml_app47views47graphviz47update_dotsvg46rhtml'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:45:30) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 110ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:45:37) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+
+ActionView::TemplateError (can't convert nil into String) on line #34 of app/views/graphviz/update_dotsvg.rhtml:
+31: <% end %>
+32: 
+33: <br />
+34: <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
+35: width="<%=@svg_width%>" height="<%=@svg_height%>" />
+
+    c:/ruby/lib/ruby/1.8/base64.rb:97:in `pack'
+    c:/ruby/lib/ruby/1.8/base64.rb:97:in `encode64'
+    app/views/graphviz/update_dotsvg.rhtml:34:in `_run_rhtml_app47views47graphviz47update_dotsvg46rhtml'
+
+Rendered rescues/_trace (360.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:45:45) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+
+ActionView::TemplateError (can't convert nil into String) on line #34 of app/views/graphviz/update_dotsvg.rhtml:
+31: <% end %>
+32: 
+33: <br />
+34: <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
+35: width="<%=@svg_width%>" height="<%=@svg_height%>" />
+
+    c:/ruby/lib/ruby/1.8/base64.rb:97:in `pack'
+    c:/ruby/lib/ruby/1.8/base64.rb:97:in `encode64'
+    app/views/graphviz/update_dotsvg.rhtml:34:in `_run_rhtml_app47views47graphviz47update_dotsvg46rhtml'
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:46:17) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.attributes):
+  app/controllers/graphviz_controller.rb:36:in `update_dotsvg'
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:47:44) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (undefined local variable or method `temp' for #<GraphvizController:0x489cb74>):
+  app/controllers/graphviz_controller.rb:36:in `update_dotsvg'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:48:35) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 63ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:48:36) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 62ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:48:38) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:48:39) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 79ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:48:41) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:49:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:49:08) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 15, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:49:28) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:49:31) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 63ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:56:38) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 578ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:57:07) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 63ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:57:29) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 79ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:57:39) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 297ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:58:09) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:58:14) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:58:16) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:58:34) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 204ms (View: 125, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:58:56) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:59:09) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:59:17) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:59:50) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 18:59:52) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:00:08) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:00:13) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:00:19) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:00:23) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:01:17) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:01:54) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:02:36) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:02:54) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:03:09) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:03:16) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:03:42) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:03:50) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:04:07) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:04:43) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:04:52) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:05:08) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:05:20) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:05:33) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:06:11) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 234ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:06:18) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 79ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:06:49) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:06:56) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:07:06) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:07:25) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:07:50) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:07:58) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:08:09) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:08:16) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]

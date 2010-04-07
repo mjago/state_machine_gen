@@ -1,13 +1,67 @@
 
 class GraphvizController < ApplicationController
+  DATA_DIR = File.join(File.dirname(__FILE__),'..','..', "graph_data")
+  
+  def initialize
+    @devices = ["Select Device","Controller","Safety","GUI"]
+    @selected_device = @devices[0]
+    @current_device = @selected_device
+    @modules = ["Select Module","uip","usb"]
+#    @selected_module = @modules[0]
+    @graph_types = ["State       ","Flow        "]
+    @selected_graph = @graph_types[0]
+    @current_graph = @selected_graph
+  end
+  
   def index
+     File.open("uip.state","r") do |f|
+       params[:graph] = f.readlines
+     end
     @code = "hello world"
   end
   
   def update_dotsvg
-#    flash[:notice] = "ERROR: Syntax error"
-#     flash[:notice] = "ERROR: Syntax error on line #{line_count}: \"#{line.gsub("\n",'').strip}\""
-#      redirect_to :action => 'index' 
+#     @devices = ["Select Device","Controller","Safety","GUI"]
+#     @selected_device = @devices[0]
+#     @modules = ["Select Module","uip","usb"]
+    #     @selected_module = @modules[0]
+    puts "$selected_module = #{$selected_module}"
+    if not $selected_device == params[:selected_device][:id]
+      if not params[:selected_device][:id] == "Select Device"
+        $selected_device = params[:selected_device][:id]
+        flash.now[:notice] = "NOTICE: device changed to #{$selected_device}"
+      else
+        gv=IO.popen("C:/graphviz/bin/dot -q -Tsvg", "w+")
+        gv.puts "digraph G{", " \"Select\"[style=filled,fillcolor=red,fontsize=30,fontcolor=white] \"Device!\"[style=filled,fillcolor=red,fontsize=30,fontcolor=white]",  "}"
+        gv.close_write
+        @gvsvg=gv.read
+        parse_svg=REXML::Document.new(@gvsvg)
+        @svg_width=parse_svg.root.attributes["width"].gsub(/pt$/,'').to_i
+        @svg_height=parse_svg.root.attributes["height"].gsub(/pt$/,'').to_i
+        return
+      end
+    end
+    
+    if not $selected_module == params[:selected_module][:id]
+      if not params[:selected_module][:id] == "Select Module"
+        $selected_module = params[:selected_module][:id]
+        flash.now[:notice] = "NOTICE: module changed to #{$selected_module}"
+      else
+        gv=IO.popen("C:/graphviz/bin/dot -q -Tsvg", "w+")
+        gv.puts "digraph G{", " \"Select\"[style=filled,fillcolor=red,fontsize=30,fontcolor=white] \"Module!\"[style=filled,fillcolor=red,fontsize=30,fontcolor=white]",  "}"
+        gv.close_write
+        @gvsvg=gv.read
+        parse_svg=REXML::Document.new(@gvsvg)
+        @svg_width=parse_svg.root.attributes["width"].gsub(/pt$/,'').to_i
+        @svg_height=parse_svg.root.attributes["height"].gsub(/pt$/,'').to_i
+        return
+      end
+    end
+    
+    File.open(File.join(DATA_DIR,"uip.state"),"w") do |f|
+      f.write params[:graph].to_s
+    end
+    
     temp = generate_dot( params[:graph].to_s )
     gv=IO.popen("C:/graphviz/bin/dot -q -Tsvg", "w+")
     gv.puts "digraph G{", temp , "}"
@@ -16,13 +70,17 @@ class GraphvizController < ApplicationController
     parse_svg=REXML::Document.new(@gvsvg)
     @svg_width=parse_svg.root.attributes["width"].gsub(/pt$/,'').to_i
     @svg_height=parse_svg.root.attributes["height"].gsub(/pt$/,'').to_i
-    temp = generate_code(params[:graph].to_s )
-    @state_table_c = temp[0]
-    @state_table_h = temp[1]
-    @state_routines_c = temp[2]
-    @state_routines_h = temp[3]
-    @function_hash_c = temp[4]
-    @function_hash_h = temp[5]
+    
+    if params[:display_source]
+      temp = generate_code(params[:graph].to_s )
+      @state_table_c = temp[0]
+      @state_table_h = temp[1]
+      @state_routines_c = temp[2]
+      @state_routines_h = temp[3]
+      @function_hash_c = temp[4]
+      @function_hash_h = temp[5]
+    end
+    
   end
   
   def state_data
@@ -49,21 +107,20 @@ class GraphvizController < ApplicationController
         if line.include? '('
           if line.include? ')'
             from_state = line[0..line.index('->') -2].strip
-            from_state = 'STATE_' + from_state
+            from_state = 'STATE_' + params[:selected_module][:id].to_s.upcase + '_' + from_state
             from_states << from_state
             line = line[line.index('->') + 2  .. -1].strip
             to_state = line[0..line.index('(') - 1 ].strip
-            to_state = 'STATE_' + to_state
+            to_state = 'STATE_' + params[:selected_module][:id].to_s.upcase + '_' + to_state
             to_states << to_state
             transition = line[line.index('(') + 1 .. line.index(')') - 1].strip
             if transitions.include? transition
-              flash[:notice] = "ERROR: line #{line_count}, missing \")\": #{line.strip} "
+              flash.now[:notice] = "ERROR: line #{line_count}, missing \")\": #{line.strip} "
             else
               transitions << transition
             end
             if not nodes.include? from_state 
               nodes << from_state
-              puts ("\n\nfrom_state = #{from_state}\n\n")
               out_string += "#{from_state} [label = \"  #{from_state.gsub("STATE_","").gsub('_','  \n  ')}  \"]\n"
             end
             if not nodes.include? to_state
@@ -71,22 +128,17 @@ class GraphvizController < ApplicationController
               out_string += "#{to_state} [label = \"  #{to_state.gsub("STATE_","").gsub('_','  \n  ')}  \"]\n"
             end
             out_string += "#{from_state} -> #{to_state}"
-            out_string += " [#{from_state == to_state ? 'dir = back, ' : ''}label = \"  #{transition.gsub('_','  \n  ')}!  \"]\n"
+            out_string += " [#{from_state == to_state ? 'dir = back, ' : ''}label = \"  #{transition.gsub('_','  \n  ').gsub(' ','  \n  ')}!  \"]\n"
             next
           else
-            flash[:notice] = "ERROR: line #{line_count}, missing \")\": #{line.strip} "
+            flash.now[:notice] = "ERROR: line #{line_count}, missing \")\": #{line.strip} "
           end
         else
-            flash[:notice] = "ERROR: line #{line_count}, missing \"(\": #{line.strip} "
-#            flash[:notice] = "ERROR: Syntax error on line #{line_count}: \"#{line.strip}\" - missing \"(\""
+            flash.now[:notice] = "ERROR: line #{line_count}, missing \"(\": #{line.strip} "
         end
       else
-            flash[:notice] = "ERROR: line #{line_count}, missing \"->\": #{line.strip} "
-#            flash[:notice] = "ERROR: Syntax error on line #{line_count}: \"#{line.strip}\" - missing \"->\""
+            flash.now[:notice] = "ERROR: line #{line_count}, missing \"->\": #{line.strip} "
       end
-#          flash[:notice] = "ERROR: Syntax error"
-#     flash[:notice] = "ERROR: Syntax error on line #{line_count}: \"#{line.gsub("\n",'').strip}\""
-#      redirect_to :action => 'index' 
     end
     nodes.uniq!
     nodes.each do |node|
@@ -98,7 +150,6 @@ class GraphvizController < ApplicationController
       end  
     end
     out_string += "\n"
-puts ("\n\nout_string = #{out_string}\n\n")
     out_string
   end
 end
@@ -110,7 +161,6 @@ def generate_code state_data
   def get_SHA2(state)
     sha2 = Digest::SHA2.new << state
     sha2 = sha2.to_s.upcase[0..7]
-    #  sha2 = "duplicate" # test for duplicacy
     if @all_sha2s.include?(sha2)
 #      puts"ERROR! Duplicate SHA2 flow hash detected when generating for state #{state}"
 #      exit 1
@@ -269,14 +319,16 @@ extern const sint32_t FLOW_source_offset_table[];
 
 #endif
 FUNCTION_HASH_H
-
+  
+#  puts "params = #{params.inspect}"
+#  puts "selected device = #{params[:selected_device][:id].inspect}"
+#  puts "selected_module = #{params[:selected_module][:id].inspect}"
   #puts @state_data.inspect
 #   @state_data = [uip_state_data]
 #   @state_data += [usb_state_data]
 #  @state_data += [systick_state_data]
   
   @state_data = state_data
-
 
 @out_state_table_c = state_table_c_begin
 @out_state_table_h = state_table_h_begin
@@ -293,10 +345,10 @@ FUNCTION_HASH_H
   @state_data.to_s.each_line do |line|
     if line.include? '->'
       from_state = line[0..line.index('->') -2].strip
-      from_state = 'STATE_' + from_state
+      from_state = 'STATE_' + params[:selected_module][:id].to_s.upcase + '_' + from_state
       line = line[line.index('->') + 2  .. -1].strip
       to_state = line[0..line.index('(') - 1 ].strip
-      to_state = 'STATE_' + to_state
+      to_state = 'STATE_' + params[:selected_module][:id].to_s.upcase + '_' + to_state
       @fsm_states << from_state
       @fsm_states << to_state
       @fsm_states.uniq!

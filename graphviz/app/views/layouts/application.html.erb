@@ -1,0 +1,28 @@
+<!DOCTYPE  html  PUBLIC  "-//W3C//DTD  XHTML  1.0  Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html  lang="en"  xml:lang="en"  xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title><%=  title  %></title>
+    <%= stylesheet_link_tag 'blueprint/screen', :media => 'screen' %>
+    <%= stylesheet_link_tag 'blueprint/print',  :media => 'print' %>
+    <!--[if lt IE 8]><%= stylesheet_link_tag 'blueprint/ie' %><![endif]-->
+    <%= stylesheet_link_tag 'custom', :media => 'screen' %>
+  </head>
+  <body>  
+    <div class="container">
+      <h2>State / Flow Generator</h2>  
+
+      <div id="header">
+        <% unless flash[:error].nil? %>  
+        <div id="error"><%= flash[:error] %></div>  
+        <% end %>  
+        <% unless flash[:notice].nil? %>  
+        <div id="notice"><%= flash[:notice] %></div>  
+        <br />     
+        <br />     
+        <% end %>  
+        <%= yield %>
+      </div>
+    </div>
+  </body>
+</html>
