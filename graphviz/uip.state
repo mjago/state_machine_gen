@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 startup -> init (started)
 init -> idle (initialised)
 idle -> process (process request)
@@ -9,3 +10,6 @@ log_alarm -> alarm_response (alarm logged)
 alarm_response -> alarm_response (awaiting mute request)
 alarm_response -> mute_alarm (mute request)
 mute_alarm -> idle (muted)
+=======
+aaa -> bbb (ccc)
+>>>>>>> 3af000dcf026953208bf2f72411836b9412f1808

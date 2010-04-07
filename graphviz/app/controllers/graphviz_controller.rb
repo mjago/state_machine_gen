@@ -135,9 +135,11 @@ class GraphvizController < ApplicationController
           end
         else
             flash.now[:notice] = "ERROR: line #{line_count}, missing \"(\": #{line.strip} "
+#            flash[:notice] = "ERROR: Syntax error on line #{line_count}: \"#{line.strip}\" - missing \"(\""
         end
       else
             flash.now[:notice] = "ERROR: line #{line_count}, missing \"->\": #{line.strip} "
+#            flash[:notice] = "ERROR: Syntax error on line #{line_count}: \"#{line.strip}\" - missing \"->\""
       end
     end
     nodes.uniq!
