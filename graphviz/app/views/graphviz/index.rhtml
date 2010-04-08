@@ -25,9 +25,7 @@
       
       <%= submit_tag "Update" %>
       <% end -%>
-      <% form_remote_tag (:update => "dotsvg", :url => {:action => 'update_dotsvg'}, :loading => "new Element.update('dotsvg','<img src=\"/images/spinner.gif\">')", :complete => "new Effect.Highlight('dotsvg');" ) do -%>
- <%= submit_tag "Do Something" %>
-      <% end -%>
+
     </center>
     <br />
   </body>

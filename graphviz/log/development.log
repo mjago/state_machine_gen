@@ -12468,3 +12468,75 @@ Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:08:1
   Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
 Rendering graphviz/update_dotsvg
 Completed in 109ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:14:42) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 110ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:14:51) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 78ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:14:57) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:15:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 109ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:15:09) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 16, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:15:14) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:15:25) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 203ms (View: 63, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-07 19:15:32) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 93ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-08 10:32:46) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 2375ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-08 10:39:50) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-08 10:40:18) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 172ms (View: 157, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-08 10:40:22) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering graphviz/update_dotsvg
+Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
