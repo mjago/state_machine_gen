@@ -1,0 +1,17 @@
+# == Schema Information
+# Schema version: 20100408122353
+#
+# Table name: graphvizs
+#
+#  id         :integer         not null, primary key
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+# one:
+#   column: value
+#
+# two:
+#   column: value

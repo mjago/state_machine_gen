@@ -1,0 +1,36 @@
+# == Schema Information
+# Schema version: 20100408122353
+#
+# Table name: states
+#
+#  id         :integer         not null, primary key
+#  project    :string(255)
+#  device     :string(255)
+#  module     :string(255)
+#  from       :string(255)
+#  to         :string(255)
+#  transition :string(255)
+#  date       :datetime
+#  created_at :datetime
+#  updated_at :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  project: MyString
+  device: MyString
+  module: MyString
+  from: MyString
+  to: MyString
+  transition: MyString
+  date: 2010-04-08 13:23:41
+
+two:
+  project: MyString
+  device: MyString
+  module: MyString
+  from: MyString
+  to: MyString
+  transition: MyString
+  date: 2010-04-08 13:23:41

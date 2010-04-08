@@ -12540,3 +12540,3046 @@ Processing GraphvizController#update_dotsvg (for 127.0.0.1 at 2010-04-08 10:40:2
   Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
 Rendering graphviz/update_dotsvg
 Completed in 94ms (View: 0, DB: 0) | 200 OK [http://localhost/graphviz/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:32:17) [GET]
+
+NoMethodError (undefined method `helper' for #<GraphvizController:0x489cd40>):
+  app/controllers/graphviz_controller.rb:6:in `initialize'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:33:25) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x47d982c>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing GraphvizController#index (for 127.0.0.1 at 2010-04-08 12:33:39) [GET]
+Rendering template within layouts/application
+Rendering graphviz/index
+Completed in 93ms (View: 78, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:33:48) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x4947330>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:34:42) [GET]
+
+NameError (uninitialized constant GraphvizController::Helper):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:34:56) [GET]
+
+NameError (uninitialized constant GraphvizController::Helper):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (235.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:35:02) [GET]
+
+NameError (uninitialized constant GraphvizController::Helper):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:35:09) [GET]
+
+NameError (undefined local variable or method `helper' for #<GraphvizController:0x487220c>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#index (for 127.0.0.1 at 2010-04-08 12:36:26) [GET]
+
+NoMethodError (undefined method `helper_accessor' for GraphvizHelper:Module):
+  app/helpers/graphviz_helper.rb:3
+  app/controllers/application_controller.rb:5
+  app/controllers/graphviz_controller.rb:2
+
+Rendered rescues/_trace (438.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#index (for 127.0.0.1 at 2010-04-08 12:37:01) [GET]
+
+NoMethodError (undefined method `helper_attr' for GraphvizHelper:Module):
+  app/helpers/graphviz_helper.rb:3
+  app/controllers/application_controller.rb:5
+  app/controllers/graphviz_controller.rb:2
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#index (for 127.0.0.1 at 2010-04-08 12:37:57) [GET]
+
+NoMethodError (undefined method `helper_attr' for GraphvizHelper:Module):
+  app/helpers/graphviz_helper.rb:3
+  app/controllers/application_controller.rb:5
+  app/controllers/graphviz_controller.rb:2
+
+Rendered rescues/_trace (468.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#index (for 127.0.0.1 at 2010-04-08 12:38:10) [GET]
+
+NoMethodError (undefined method `accessor' for GraphvizHelper:Module):
+  app/helpers/graphviz_helper.rb:3
+  app/controllers/application_controller.rb:5
+  app/controllers/graphviz_controller.rb:2
+
+Rendered rescues/_trace (78.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ActionController::Base#index (for 127.0.0.1 at 2010-04-08 12:38:13) [GET]
+
+NoMethodError (undefined method `accessor' for GraphvizHelper:Module):
+  app/helpers/graphviz_helper.rb:3
+  app/controllers/application_controller.rb:5
+  app/controllers/graphviz_controller.rb:2
+
+Rendered rescues/_trace (547.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:38:23) [GET]
+
+NameError (undefined local variable or method `helper' for #<GraphvizController:0x48aa2b0>):
+  app/controllers/graphviz_controller.rb:8:in `initialize'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:38:49) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x47dd5bc>):
+  app/controllers/graphviz_controller.rb:8:in `initialize'
+
+Rendered rescues/_trace (46.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:38:51) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x47054c8>):
+  app/controllers/graphviz_controller.rb:8:in `initialize'
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:38:52) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x48ca3f8>):
+  app/controllers/graphviz_controller.rb:8:in `initialize'
+
+Rendered rescues/_trace (46.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:38:53) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x47f3650>):
+  app/controllers/graphviz_controller.rb:8:in `initialize'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:50:45) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x47e4e20>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:50:52) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x47271e0>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:50:54) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x4942cb8>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:51:06) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x4866ed4>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:51:52) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `do_something' for Graphviz(Table doesn't exist):Class):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (547.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:51:59) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `do_something' for Graphviz(Table doesn't exist):Class):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:52:06) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `do_something' for Graphviz(Table doesn't exist):Class):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:52:11) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `do_something' for Graphviz(Table doesn't exist):Class):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (422.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (31.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (32.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateGraphvizs (20100408114938)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "graphvizs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100408114938')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("graphvizs")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateGraphvizs (20100408114938)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (15.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("graphvizs")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:53:16) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `do_something' for Graphviz(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:53:24) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `do_something' for Graphviz(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:53:30) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `do_something' for Graphviz(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (62.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:53:31) [GET]
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `do_something' for Graphviz(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:53:31) [GET]
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+NoMethodError (undefined method `do_something' for Graphviz(id: integer, created_at: datetime, updated_at: datetime):Class):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (531.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:53:43) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x493804c>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (46.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:53:48) [GET]
+
+NameError (undefined local variable or method `do_something' for #<GraphvizController:0x485be80>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (46.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:55:48) [GET]
+
+NameError (undefined local variable or method `graphviz' for #<GraphvizController:0x4795884>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (188.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 12:55:52) [GET]
+
+NameError (undefined local variable or method `graphviz' for #<GraphvizController:0x4953108>):
+  app/controllers/graphviz_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (47.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStates (20100408120706)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (16.0ms)[0m   [0mCREATE TABLE "states" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "project" varchar(255), "device" varchar(255), "module" varchar(255), "from" varchar(255), "to" varchar(255), "date" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100408120706')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("graphvizs")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("states")[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStates (20100408120706)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mDROP TABLE "states"[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100408120706'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("graphvizs")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("graphvizs")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (15.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateStates (20100408122353)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mCREATE TABLE "states" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "project" varchar(255), "device" varchar(255), "module" varchar(255), "from" varchar(255), "to" varchar(255), "transition" varchar(255), "date" datetime, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100408122353')[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("graphvizs")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("states")[0m
+  [4;36;1mSQL (16.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mState Create (0.0ms)[0m   [0mINSERT INTO "states" ("device", "module", "updated_at", "project", "from", "date", "to", "transition", "created_at") VALUES(NULL, NULL, '2010-04-08 12:38:16', 'ff04', NULL, NULL, NULL, NULL, '2010-04-08 12:38:16')[0m
+  [4;36;1mState Create (0.0ms)[0m   [0;1mINSERT INTO "states" ("device", "module", "updated_at", "project", "from", "date", "to", "transition", "created_at") VALUES(NULL, NULL, '2010-04-08 12:40:38', 'aa01', NULL, NULL, NULL, NULL, '2010-04-08 12:40:38')[0m
+  [4;35;1mState Create (0.0ms)[0m   [0mINSERT INTO "states" ("device", "module", "updated_at", "project", "from", "date", "to", "transition", "created_at") VALUES(NULL, NULL, '2010-04-08 12:41:59', 'aa01', NULL, NULL, NULL, NULL, '2010-04-08 12:41:59')[0m
+  [4;36;1mState Destroy (0.0ms)[0m   [0;1mDELETE FROM "states" WHERE "id" = 3[0m
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."id" = 2) [0m
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."id" = 3) [0m
+  [4;36;1mState Load (15.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."id" = 2) [0m
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" LIMIT 1[0m
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."id" = '--- :next
+') [0m
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" ORDER BY states.id DESC LIMIT 1[0m
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."project" = 'aa01') LIMIT 1[0m
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."project" = 'ff04') LIMIT 1[0m
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."project" = 'ff05') LIMIT 1[0m
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" [0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."project" = 'ff04') LIMIT 1[0m
+  [4;35;1mState Update (0.0ms)[0m   [0mUPDATE "states" SET "device" = 'safety', "updated_at" = '2010-04-08 12:47:04', "module" = 'uip' WHERE "id" = 1[0m
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."project" = 'ff04') LIMIT 1[0m
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."project" = 'ff04') LIMIT 1[0m
+  [4;36;1mState Update (0.0ms)[0m   [0;1mUPDATE "states" SET "updated_at" = '2010-04-08 12:49:05', "module" = 'usb' WHERE "id" = 1[0m
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."project" = 'ff04') LIMIT 1[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 15:24:20) [GET]
+
+NameError (uninitialized constant GraphvizController):
+  
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 15:24:26) [GET]
+
+NameError (uninitialized constant GraphvizController):
+  
+
+Rendered rescues/_trace (453.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 15:25:27) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 297ms (View: 297, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 15:25:35) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 2797ms (View: 31, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 15:25:44) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 15:26:34) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle (idle)\n"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 672ms (View: 47, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#1 (for 127.0.0.1 at 2010-04-08 15:26:54) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: generate_dot, index, state_data, and update_dotsvg):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatesController#1 (for 127.0.0.1 at 2010-04-08 15:27:53) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: generate_dot, index, state_data, and update_dotsvg):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatesController#1 (for 127.0.0.1 at 2010-04-08 15:27:55) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: generate_dot, index, state_data, and update_dotsvg):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatesController#1 (for 127.0.0.1 at 2010-04-08 15:27:57) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: generate_dot, index, state_data, and update_dotsvg):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 15:28:07) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 516ms (View: 500, DB: 0) | 200 OK [http://localhost/states/index]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 15:28:37) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 282ms (View: 32, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 16:01:58) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 219ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 16:02:02) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/states/index]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 16:02:06) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 172ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#state (for 127.0.0.1 at 2010-04-08 16:02:14) [GET]
+
+ActionController::UnknownAction (No action responded to state. Actions: generate_dot, index, show, state_data, and update_dotsvg):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatesController#states (for 127.0.0.1 at 2010-04-08 16:02:19) [GET]
+
+ActionController::UnknownAction (No action responded to states. Actions: generate_dot, index, show, state_data, and update_dotsvg):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatesController#states (for 127.0.0.1 at 2010-04-08 16:02:25) [GET]
+  Parameters: {"id"=>"show"}
+
+ActionController::UnknownAction (No action responded to states. Actions: generate_dot, index, show, state_data, and update_dotsvg):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 16:02:31) [GET]
+
+ActionController::RoutingError (No route matches "/states/state/show/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 16:02:37) [GET]
+
+ActionController::RoutingError (No route matches "/states/states/show/1" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:02:49) [GET]
+  Parameters: {"id"=>"1"}
+
+NameError (uninitialized constant StatesController::States):
+  app/controllers/states_controller.rb:18:in `show'
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:03:47) [GET]
+  Parameters: {"id"=>"1"}
+
+ArgumentError (Range unspecified.  Specify the :within, :maximum, :minimum, or :is option.):
+  app/models/state.rb:25
+  app/controllers/states_controller.rb:18:in `show'
+
+Rendered rescues/_trace (531.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:04:14) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mState Load (16.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find State with ID=1):
+  app/controllers/states_controller.rb:18:in `show'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:04:20) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."id" = 2) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find State with ID=2):
+  app/controllers/states_controller.rb:18:in `show'
+
+Rendered rescues/_trace (1422.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:04:28) [GET]
+  Parameters: {"id"=>"0"}
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find State with ID=0):
+  app/controllers/states_controller.rb:18:in `show'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:04:33) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find State with ID=1):
+  app/controllers/states_controller.rb:18:in `show'
+
+Rendered rescues/_trace (1313.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (not_found)
+  [4;36;1mState Create (0.0ms)[0m   [0;1mINSERT INTO "states" ("device", "module", "updated_at", "project", "from", "date", "to", "transition", "created_at") VALUES('safety', 'uip', '2010-04-08 15:10:52', 'ff04', 'from', '2010-04-08 15:10:39', 'to', 'transition', '2010-04-08 15:10:52')[0m
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:12:25) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+
+ActionView::MissingTemplate (Missing template states/show.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:17:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering states/show
+
+ActionView::TemplateError (undefined method `name' for #<State:0x4743d04>) on line #2 of app/views/states/show.html.erb:
+1: <h2>
+2:   <%= h @state.name %>
+3: </h2>
+
+    app/views/states/show.html.erb:2
+
+Rendered rescues/_trace (219.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:17:49) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering states/show
+Completed in 141ms (View: 110, DB: 0) | 200 OK [http://localhost/states/show/1]
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:18:43) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering states/show
+Completed in 203ms (View: 110, DB: 0) | 200 OK [http://localhost/states/show/1]
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:19:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering states/show
+ERROR: compiling _run_erb_app47views47states47show46html46erb RAISED compile error
+C:/state_machine_gen/graphviz/app/views/states/show.html.erb:5: syntax error, unexpected tIVAR, expecting kDO or '{' or '('
+@output_buffer.concat "  Device = "; @output_buffer.concat(( '\"' + h @state.device + '\"' ).to_s); @output_buffer.concat "\n"
+                                                                            ^
+Function body:           def _run_erb_app47views47states47show46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h2>\n"
+@output_buffer.concat "  Project = "; @output_buffer.concat(( h @state.project ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</h2>\n"
+@output_buffer.concat "<h2>\n"
+@output_buffer.concat "  Device = "; @output_buffer.concat(( '\"' + h @state.device + '\"' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</h2>\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/state_machine_gen/graphviz/app/views/states/show.html.erb:11:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/state_machine_gen/graphviz/app/views/states/show.html.erb:5: syntax error, unexpected tIVAR, expecting kDO or '{' or '('
+@output_buffer.concat "  Device = "; @output_buffer.concat(( '\"' + h @state.device + '\"' ).to_s); @output_buffer.concat "\n"
+                                                                            ^) on line #5 of app/views/states/show.html.erb:
+2:   Project = <%= h @state.project %>
+3: </h2>
+4: <h2>
+5:   Device = <%= '\"' + h @state.device + '\"' %>
+6: </h2>
+
+    app/views/states/show.html.erb:11:in `compile!'
+
+Rendered rescues/_trace (188.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:19:52) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering states/show
+ERROR: compiling _run_erb_app47views47states47show46html46erb RAISED compile error
+C:/state_machine_gen/graphviz/app/views/states/show.html.erb:5: syntax error, unexpected tIVAR, expecting kDO or '{' or '('
+@output_buffer.concat "  Device = "; @output_buffer.concat(( ' ' + h @state.device + ' ' ).to_s); @output_buffer.concat "\n"
+                                                                           ^
+Function body:           def _run_erb_app47views47states47show46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h2>\n"
+@output_buffer.concat "  Project = "; @output_buffer.concat(( h @state.project ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</h2>\n"
+@output_buffer.concat "<h2>\n"
+@output_buffer.concat "  Device = "; @output_buffer.concat(( ' ' + h @state.device + ' ' ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "</h2>\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/state_machine_gen/graphviz/app/views/states/show.html.erb:11:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/state_machine_gen/graphviz/app/views/states/show.html.erb:5: syntax error, unexpected tIVAR, expecting kDO or '{' or '('
+@output_buffer.concat "  Device = "; @output_buffer.concat(( ' ' + h @state.device + ' ' ).to_s); @output_buffer.concat "\n"
+                                                                           ^) on line #5 of app/views/states/show.html.erb:
+2:   Project = <%= h @state.project %>
+3: </h2>
+4: <h2>
+5:   Device = <%= ' ' + h @state.device + ' ' %>
+6: </h2>
+
+    app/views/states/show.html.erb:11:in `compile!'
+
+Rendered rescues/_trace (500.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#show (for 127.0.0.1 at 2010-04-08 16:35:05) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" WHERE ("states"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering states/show
+Completed in 93ms (View: 47, DB: 0) | 200 OK [http://localhost/states/show/1]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:30:04) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 172ms (View: 172, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:30:28) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering states/update_dotsvg
+Completed in 1781ms (View: 297, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:30:41) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 203ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:32:46) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:37:01) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 46ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:37:13) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:37:17) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 547ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:37:33) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 219ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:37:50) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle_state -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 235ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+  [4;36;1mState Load (0.0ms)[0m   [0;1mSELECT * FROM "states" [0m
+  [4;35;1mState Load (0.0ms)[0m   [0mSELECT * FROM "states" WHERE ("states"."project" = 'ff04') LIMIT 1[0m
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:42:02) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 188ms (View: 188, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:42:06) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle_state -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 906ms (View: 31, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:42:27) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 266ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:42:36) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 719ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:42:42) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 266ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:44:55) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:44:59) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (uninitialized constant StatesController::TestClass):
+  app/controllers/states_controller.rb:96:in `generate_dot'
+  app/controllers/states_controller.rb:70:in `update_dotsvg'
+
+Rendered rescues/_trace (422.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:45:37) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:45:41) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (uninitialized constant StatesController::TestClass):
+  app/controllers/states_controller.rb:96:in `generate_dot'
+  app/controllers/states_controller.rb:70:in `update_dotsvg'
+
+Rendered rescues/_trace (234.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:46:35) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 31ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:46:38) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (uninitialized constant StatesController::TestClass):
+  app/controllers/states_controller.rb:96:in `generate_dot'
+  app/controllers/states_controller.rb:70:in `update_dotsvg'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:47:08) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:47:11) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 266ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 17:49:18) [GET]
+
+SyntaxError (C:/state_machine_gen/graphviz/app/controllers/states_controller.rb:482: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered rescues/_trace (141.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:50:47) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:50:53) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+
+SyntaxError (C:/state_machine_gen/graphviz/app/models/state.rb:118: syntax error, unexpected kEND, expecting $end):
+  app/controllers/states_controller.rb:70:in `update_dotsvg'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:51:27) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:51:31) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (undefined local variable or method `params' for #<State:0x473a970>):
+  app/models/state.rb:61:in `generate_dot'
+  app/models/state.rb:54:in `each_line'
+  app/models/state.rb:54:in `generate_dot'
+  app/controllers/states_controller.rb:70:in `update_dotsvg'
+
+Rendered rescues/_trace (422.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 17:54:27) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:54:30) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 343ms (View: 47, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 17:54:38) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 735ms (View: 375, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:01:26) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 1125ms (View: 422, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:01:31) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 32ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:01:39) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Safety"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 375ms (View: 110, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:08:40) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+
+NoMethodError (undefined method `draw_svg_notice' for #<StatesController:0x47717f4>):
+  app/controllers/states_controller.rb:38:in `update_dotsvg'
+
+Rendered rescues/_trace (140.0ms)
+Rendered rescues/_request_and_response (266.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:08:57) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:09:01) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+
+SyntaxError (C:/state_machine_gen/graphviz/app/models/state.rb:119: syntax error, unexpected kWHEN
+  when notice == :selected_device
+      ^):
+  app/controllers/states_controller.rb:38:in `update_dotsvg'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:10:29) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 15, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:10:33) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+
+NoMethodError (undefined method `[]' for :select_device:Symbol):
+  app/models/state.rb:125:in `draw_svg_notice'
+  app/controllers/states_controller.rb:38:in `update_dotsvg'
+
+Rendered rescues/_trace (484.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:10:53) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:10:55) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+
+NoMethodError (undefined method `[]' for :select_device:Symbol):
+  app/models/state.rb:126:in `draw_svg_notice'
+  app/controllers/states_controller.rb:38:in `update_dotsvg'
+
+Rendered rescues/_trace (219.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:11:38) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:11:41) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+  app/models/state.rb:126:in `draw_svg_notice'
+  app/controllers/states_controller.rb:38:in `update_dotsvg'
+
+Rendered rescues/_trace (157.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:12:40) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 63ms (View: 47, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:12:42) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+
+ActionView::TemplateError (can't convert nil into String) on line #34 of app/views/states/update_dotsvg.rhtml:
+31: <% end %>
+32: 
+33: <br />
+34: <object data="data:image/svg+xml;base64,<%=Base64.encode64(@gvsvg) %>" 
+35: width="<%=@svg_width%>" height="<%=@svg_height%>" />
+
+    c:/ruby/lib/ruby/1.8/base64.rb:97:in `pack'
+    c:/ruby/lib/ruby/1.8/base64.rb:97:in `encode64'
+    app/views/states/update_dotsvg.rhtml:34:in `_run_rhtml_app47views47states47update_dotsvg46rhtml'
+
+Rendered rescues/_trace (485.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:17:19) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:17:21) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "display_source"=>"false", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 312ms (View: 62, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:17:37) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:18:12) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 203ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:21:02) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:21:05) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 500ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:21:11) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Select Device"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering states/update_dotsvg
+Completed in 188ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:21:17) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"Select Module"}}
+Rendering states/update_dotsvg
+Completed in 172ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:21:25) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:21:56) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:22:00) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 234ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:22:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 281ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:22:08) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 266ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:22:12) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 297ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:22:15) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 266ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:22:55) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:23:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 266ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:23:09) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 265ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:26:28) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 32ms (View: 16, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:26:34) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 297ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:26:39) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 266ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:26:42) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:26:45) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 235ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:26:47) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:26:49) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 234ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:26:55) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:26:58) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 594ms (View: 47, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:27:00) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 235ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:27:17) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 31ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:27:21) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 313ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:27:25) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 203ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:28:27) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 266ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:32:06) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 375ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:32:15) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (wrong number of arguments) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <% @graph = this is a test %>
+24:       <br><%= text_area :graph, @graph, :cols => 80, :rows => 10 %>
+25:       <br />
+26:       
+
+    app/views/states/index.rhtml:23:in `test'
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (266.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:32:33) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (undefined method `this is a test' for "this is a test":String) on line #24 of app/views/states/index.rhtml:
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <% @graph = "this is a test" %>
+24:       <br><%= text_area :graph, @graph, :cols => 80, :rows => 10 %>
+25:       <br />
+26:       
+27:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:24:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (234.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:33:19) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (undefined method `this is a test' for "this is a test":String) on line #24 of app/views/states/index.rhtml:
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <% @graph = "this is a test" -%>
+24:       <br><%= text_area :graph, @graph, :cols => 80, :rows => 10 %>
+25:       <br />
+26:       
+27:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:24:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (219.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:40:05) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (undefined method `hello' for "hello":String) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :graph, @graph="hello", :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (531.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:40:49) [GET]
+Rendering template within layouts/application
+Rendering states/index
+ERROR: compiling _run_rhtml_app47views47states47index46rhtml RAISED compile error
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected ',', expecting tASSOC
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area :graph => "hello", @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                                ^
+Function body:           def _run_rhtml_app47views47states47index46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \n"
+@output_buffer.concat "\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n"
+@output_buffer.concat "  <head>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( javascript_include_tag "prototype", "effects" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </head>\n"
+@output_buffer.concat "  <body>\n"
+@output_buffer.concat "    <center>\n"
+@output_buffer.concat "      <div id=\"dotsvg\">\n"
+@output_buffer.concat "        <!-- An SVG graphic will go here when the form is submitted -->\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      ";  form_remote_tag (:update => "dotsvg", :url => {:action => 'update_dotsvg'}, :loading => "new Element.update('dotsvg','<img src=\"/images/spinner.gif\">')", :complete => "new Effect.Highlight('dotsvg');" ) do 
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "    </select>\n"
+@output_buffer.concat "      <h3>Enter State Transitions:</h3>\n"
+@output_buffer.concat "      <br><h4>from_state -> to_state (transition)</h4>\n"
+@output_buffer.concat "      <br><input type=\"checkbox\" id=\"display_source\" name=\"display_source\" value=\"false\" />\n"
+@output_buffer.concat "      <label for=\"display_source\">Display Source</label>  \n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_graph", "id", @graph_types.map {|d| d}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_device", "id", @devices.map {|d| d}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_module", "id", @modules.map {|m| m}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area :graph => "hello", @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "      \n"
+@output_buffer.concat "      "; @output_buffer.concat(( submit_tag "Update" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      ";  end 
+@output_buffer.concat "\n"
+@output_buffer.concat "    </center>\n"
+@output_buffer.concat "    <br />\n"
+@output_buffer.concat "  </body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/state_machine_gen/graphviz/app/views/states/index.rhtml:37:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected ',', expecting tASSOC
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area :graph => "hello", @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                                ^) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :graph => "hello", @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:37:in `compile!'
+
+Rendered rescues/_trace (609.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:41:43) [GET]
+Rendering template within layouts/application
+Rendering states/index
+ERROR: compiling _run_rhtml_app47views47states47index46rhtml RAISED compile error
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected tASSOC, expecting '}'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph => "hello"}, @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected ',', expecting ')'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph => "hello"}, @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                          ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph => "hello"}, @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                                           ^
+Function body:           def _run_rhtml_app47views47states47index46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \n"
+@output_buffer.concat "\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n"
+@output_buffer.concat "  <head>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( javascript_include_tag "prototype", "effects" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </head>\n"
+@output_buffer.concat "  <body>\n"
+@output_buffer.concat "    <center>\n"
+@output_buffer.concat "      <div id=\"dotsvg\">\n"
+@output_buffer.concat "        <!-- An SVG graphic will go here when the form is submitted -->\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      ";  form_remote_tag (:update => "dotsvg", :url => {:action => 'update_dotsvg'}, :loading => "new Element.update('dotsvg','<img src=\"/images/spinner.gif\">')", :complete => "new Effect.Highlight('dotsvg');" ) do 
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "    </select>\n"
+@output_buffer.concat "      <h3>Enter State Transitions:</h3>\n"
+@output_buffer.concat "      <br><h4>from_state -> to_state (transition)</h4>\n"
+@output_buffer.concat "      <br><input type=\"checkbox\" id=\"display_source\" name=\"display_source\" value=\"false\" />\n"
+@output_buffer.concat "      <label for=\"display_source\">Display Source</label>  \n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_graph", "id", @graph_types.map {|d| d}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_device", "id", @devices.map {|d| d}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_module", "id", @modules.map {|m| m}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph => "hello"}, @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "      \n"
+@output_buffer.concat "      "; @output_buffer.concat(( submit_tag "Update" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      ";  end 
+@output_buffer.concat "\n"
+@output_buffer.concat "    </center>\n"
+@output_buffer.concat "    <br />\n"
+@output_buffer.concat "  </body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/state_machine_gen/graphviz/app/views/states/index.rhtml:37:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected tASSOC, expecting '}'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph => "hello"}, @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected ',', expecting ')'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph => "hello"}, @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                          ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph => "hello"}, @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                                           ^) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area {:graph => "hello"}, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:37:in `compile!'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:42:27) [GET]
+Rendering template within layouts/application
+Rendering states/index
+ERROR: compiling _run_rhtml_app47views47states47index46rhtml RAISED compile error
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected ',', expecting '}'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph , "hello", :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                               ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected ',', expecting '}'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph , "hello", :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                        ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:27: syntax error, unexpected kEND, expecting '}'
+@output_buffer.concat "      ";  end 
+                                    ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:35: syntax error, unexpected kENSURE, expecting '}'
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:37: syntax error, unexpected kEND, expecting '}'
+Function body:           def _run_rhtml_app47views47states47index46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \n"
+@output_buffer.concat "\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n"
+@output_buffer.concat "  <head>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( javascript_include_tag "prototype", "effects" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </head>\n"
+@output_buffer.concat "  <body>\n"
+@output_buffer.concat "    <center>\n"
+@output_buffer.concat "      <div id=\"dotsvg\">\n"
+@output_buffer.concat "        <!-- An SVG graphic will go here when the form is submitted -->\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      ";  form_remote_tag (:update => "dotsvg", :url => {:action => 'update_dotsvg'}, :loading => "new Element.update('dotsvg','<img src=\"/images/spinner.gif\">')", :complete => "new Effect.Highlight('dotsvg');" ) do 
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "    </select>\n"
+@output_buffer.concat "      <h3>Enter State Transitions:</h3>\n"
+@output_buffer.concat "      <br><h4>from_state -> to_state (transition)</h4>\n"
+@output_buffer.concat "      <br><input type=\"checkbox\" id=\"display_source\" name=\"display_source\" value=\"false\" />\n"
+@output_buffer.concat "      <label for=\"display_source\">Display Source</label>  \n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_graph", "id", @graph_types.map {|d| d}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_device", "id", @devices.map {|d| d}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_module", "id", @modules.map {|m| m}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph , "hello", :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "      \n"
+@output_buffer.concat "      "; @output_buffer.concat(( submit_tag "Update" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      ";  end 
+@output_buffer.concat "\n"
+@output_buffer.concat "    </center>\n"
+@output_buffer.concat "    <br />\n"
+@output_buffer.concat "  </body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/state_machine_gen/graphviz/app/views/states/index.rhtml:37:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected ',', expecting '}'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph , "hello", :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                               ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected ',', expecting '}'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph , "hello", :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                        ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:27: syntax error, unexpected kEND, expecting '}'
+@output_buffer.concat "      ";  end 
+                                    ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:35: syntax error, unexpected kENSURE, expecting '}'
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:37: syntax error, unexpected kEND, expecting '}') on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area {:graph , "hello", :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:37:in `compile!'
+
+Rendered rescues/_trace (203.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 18:43:21) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/controllers/states_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (125.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 18:43:28) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]=):
+  app/controllers/states_controller.rb:7:in `initialize'
+
+Rendered rescues/_trace (422.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:44:00) [GET]
+Rendering template within layouts/application
+Rendering states/index
+ERROR: compiling _run_rhtml_app47views47states47index46rhtml RAISED compile error
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected ',', expecting '}'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph , @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                               ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph , @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                                ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:27: syntax error, unexpected kEND, expecting '}'
+@output_buffer.concat "      ";  end 
+                                    ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:35: syntax error, unexpected kENSURE, expecting '}'
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:37: syntax error, unexpected kEND, expecting '}'
+Function body:           def _run_rhtml_app47views47states47index46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \n"
+@output_buffer.concat "\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n"
+@output_buffer.concat "  <head>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( javascript_include_tag "prototype", "effects" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </head>\n"
+@output_buffer.concat "  <body>\n"
+@output_buffer.concat "    <center>\n"
+@output_buffer.concat "      <div id=\"dotsvg\">\n"
+@output_buffer.concat "        <!-- An SVG graphic will go here when the form is submitted -->\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      ";  form_remote_tag (:update => "dotsvg", :url => {:action => 'update_dotsvg'}, :loading => "new Element.update('dotsvg','<img src=\"/images/spinner.gif\">')", :complete => "new Effect.Highlight('dotsvg');" ) do 
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "    </select>\n"
+@output_buffer.concat "      <h3>Enter State Transitions:</h3>\n"
+@output_buffer.concat "      <br><h4>from_state -> to_state (transition)</h4>\n"
+@output_buffer.concat "      <br><input type=\"checkbox\" id=\"display_source\" name=\"display_source\" value=\"false\" />\n"
+@output_buffer.concat "      <label for=\"display_source\">Display Source</label>  \n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_graph", "id", @graph_types.map {|d| d}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_device", "id", @devices.map {|d| d}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_module", "id", @modules.map {|m| m}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph , @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "      \n"
+@output_buffer.concat "      "; @output_buffer.concat(( submit_tag "Update" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      ";  end 
+@output_buffer.concat "\n"
+@output_buffer.concat "    </center>\n"
+@output_buffer.concat "    <br />\n"
+@output_buffer.concat "  </body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/state_machine_gen/graphviz/app/views/states/index.rhtml:37:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected ',', expecting '}'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph , @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                               ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area {:graph , @graph, :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                                ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:27: syntax error, unexpected kEND, expecting '}'
+@output_buffer.concat "      ";  end 
+                                    ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:35: syntax error, unexpected kENSURE, expecting '}'
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:37: syntax error, unexpected kEND, expecting '}') on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area {:graph , @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:37:in `compile!'
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:44:44) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:44:49) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 281ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:45:26) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 297ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:45:32) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:45:55) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:46:02) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 297ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:47:43) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 297ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:47:46) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:47:49) [GET]
+Rendering template within layouts/application
+Rendering states/index
+ERROR: compiling _run_rhtml_app47views47states47index46rhtml RAISED compile error
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area :graph, @graph, id="comment_text" name="comment[text]", :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                                            ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected tASSOC, expecting ')'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area :graph, @graph, id="comment_text" name="comment[text]", :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                                                                      ^
+Function body:           def _run_rhtml_app47views47states47index46rhtml(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \n"
+@output_buffer.concat "\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n"
+@output_buffer.concat "<html xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\" xml:lang=\"en\">\n"
+@output_buffer.concat "  <head>\n"
+@output_buffer.concat "    "; @output_buffer.concat(( javascript_include_tag "prototype", "effects" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "  </head>\n"
+@output_buffer.concat "  <body>\n"
+@output_buffer.concat "    <center>\n"
+@output_buffer.concat "      <div id=\"dotsvg\">\n"
+@output_buffer.concat "        <!-- An SVG graphic will go here when the form is submitted -->\n"
+@output_buffer.concat "      </div>\n"
+@output_buffer.concat "\n"
+@output_buffer.concat "      ";  form_remote_tag (:update => "dotsvg", :url => {:action => 'update_dotsvg'}, :loading => "new Element.update('dotsvg','<img src=\"/images/spinner.gif\">')", :complete => "new Effect.Highlight('dotsvg');" ) do 
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "    </select>\n"
+@output_buffer.concat "      <h3>Enter State Transitions:</h3>\n"
+@output_buffer.concat "      <br><h4>from_state -> to_state (transition)</h4>\n"
+@output_buffer.concat "      <br><input type=\"checkbox\" id=\"display_source\" name=\"display_source\" value=\"false\" />\n"
+@output_buffer.concat "      <label for=\"display_source\">Display Source</label>  \n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_graph", "id", @graph_types.map {|d| d}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_device", "id", @devices.map {|d| d}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( select ("selected_module", "id", @modules.map {|m| m}) ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area :graph, @graph, id="comment_text" name="comment[text]", :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      <br />\n"
+@output_buffer.concat "      \n"
+@output_buffer.concat "      "; @output_buffer.concat(( submit_tag "Update" ).to_s); @output_buffer.concat "\n"
+@output_buffer.concat "      ";  end 
+@output_buffer.concat "\n"
+@output_buffer.concat "    </center>\n"
+@output_buffer.concat "    <br />\n"
+@output_buffer.concat "  </body>\n"
+@output_buffer.concat "</html>\n"
+@output_buffer.concat "\n"
+@output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: C:/state_machine_gen/graphviz/app/views/states/index.rhtml:37:in `compile!'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:10:in `realtime'
+c:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:159:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `each'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:158:in `process_client'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:285:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `initialize'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `new'
+c:/ruby/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mswin32-60/lib/mongrel.rb:268:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+c:/ruby/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+c:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected tIDENTIFIER, expecting ')'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area :graph, @graph, id="comment_text" name="comment[text]", :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                                            ^
+C:/state_machine_gen/graphviz/app/views/states/index.rhtml:23: syntax error, unexpected tASSOC, expecting ')'
+@output_buffer.concat "      <br>"; @output_buffer.concat(( text_area :graph, @graph, id="comment_text" name="comment[text]", :cols => 80, :rows => 10 ).to_s); @output_buffer.concat "\n"
+                                                                                                                                      ^) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :graph, @graph, id="comment_text" name="comment[text]", :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:37:in `compile!'
+
+Rendered rescues/_trace (219.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:49:32) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 78ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:49:38) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>{"here is some text"=>""}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (undefined local variable or method `flash' for #<State:0x492f884>):
+  app/models/state.rb:108:in `generate_dot'
+  app/models/state.rb:62:in `each_line'
+  app/models/state.rb:62:in `generate_dot'
+  app/controllers/states_controller.rb:66:in `update_dotsvg'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:50:00) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>{"here is some text"=>""}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (undefined local variable or method `flash' for #<State:0x47fbee0>):
+  app/models/state.rb:108:in `generate_dot'
+  app/models/state.rb:62:in `each_line'
+  app/models/state.rb:62:in `generate_dot'
+  app/controllers/states_controller.rb:66:in `update_dotsvg'
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:50:04) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>{"here is some text"=>""}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (undefined local variable or method `flash' for #<State:0x46d7fc8>):
+  app/models/state.rb:108:in `generate_dot'
+  app/models/state.rb:62:in `each_line'
+  app/models/state.rb:62:in `generate_dot'
+  app/controllers/states_controller.rb:66:in `update_dotsvg'
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:50:08) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>{"here is some text"=>""}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (undefined local variable or method `flash' for #<State:0x484dde4>):
+  app/models/state.rb:108:in `generate_dot'
+  app/models/state.rb:62:in `each_line'
+  app/models/state.rb:62:in `generate_dot'
+  app/controllers/states_controller.rb:66:in `update_dotsvg'
+
+Rendered rescues/_trace (157.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:50:11) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>{"here is some text"=>""}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (undefined local variable or method `flash' for #<State:0x4729ad0>):
+  app/models/state.rb:108:in `generate_dot'
+  app/models/state.rb:62:in `each_line'
+  app/models/state.rb:62:in `generate_dot'
+  app/controllers/states_controller.rb:66:in `update_dotsvg'
+
+Rendered rescues/_trace (1032.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:55:13) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 78ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:55:18) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:55:21) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:55:25) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 234ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:55:52) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 94ms (View: 94, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:55:56) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:55:58) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 31, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:56:00) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 234ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:56:26) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 250ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:56:29) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 359ms (View: 359, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:56:56) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (wrong number of arguments (4 for 3)) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :graph, @graph, {"value" => "here is some text here is some more text"}, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `text_area'
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (234.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 18:57:11) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 390ms (View: 390, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 18:57:15) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>["startup -> init (started)\ninit -> idle (initialised)\nidle -> idle_state  (do nothing)"], "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 265ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:02:51) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (531.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:04:04) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:04:12) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-08 19:04:39) [GET]
+
+NoMethodError (undefined method `graph=' for #<State:0x476dac8>):
+  app/controllers/states_controller.rb:8:in `initialize'
+
+Rendered rescues/_trace (578.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:06:03) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (234.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:07:49) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:07:52) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (250.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:07:54) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (719.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:07:57) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (406.0ms)
+Rendered rescues/_request_and_response (297.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:07:59) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (219.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:09:38) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (265.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:09:40) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (516.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:09:42) [GET]
+Rendering template within layouts/application
+Rendering states/index
+
+ActionView::TemplateError (interning empty string) on line #23 of app/views/states/index.rhtml:
+20:       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
+21:       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
+22:       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
+23:       <br><%= text_area :state, @graph, :cols => 80, :rows => 10 %>
+24:       <br />
+25:       
+26:       <%= submit_tag "Update" %>
+
+    app/views/states/index.rhtml:23:in `_run_rhtml_app47views47states47index46rhtml'
+    app/views/states/index.rhtml:13:in `_run_rhtml_app47views47states47index46rhtml'
+
+Rendered rescues/_trace (1094.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:13:26) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:13:57) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}, "state"=>"test"}
+Rendering states/update_dotsvg
+Completed in 156ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:14:11) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}, "state"=>"startup -> init (abc)"}
+Rendering states/update_dotsvg
+Completed in 125ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:14:18) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}, "state"=>"startup -> init (abc)"}
+Rendering states/update_dotsvg
+Completed in 141ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:14:30) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}, "state"=>"startup -> init (abc)"}
+Rendering states/update_dotsvg
+Completed in 141ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:14:32) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}, "state"=>"startup -> init (abc)"}
+Rendering states/update_dotsvg
+Completed in 140ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:14:33) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}, "state"=>"startup -> init (abc)"}
+Rendering states/update_dotsvg
+Completed in 437ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:14:35) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}, "state"=>"startup -> init (abc)"}
+Rendering states/update_dotsvg
+Completed in 156ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:14:37) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}, "state"=>"startup -> init (abc)"}
+Rendering states/update_dotsvg
+Completed in 140ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:14:39) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}, "state"=>"startup -> init (abc)"}
+Rendering states/update_dotsvg
+Completed in 141ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:14:47) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 63ms (View: 63, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:14:50) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>"test", "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+
+NameError (undefined local variable or method `flash' for #<State:0x47611d8>):
+  app/models/state.rb:112:in `generate_dot'
+  app/models/state.rb:66:in `each_line'
+  app/models/state.rb:66:in `generate_dot'
+  app/controllers/states_controller.rb:65:in `update_dotsvg'
+
+Rendered rescues/_trace (438.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing StatesController#index (for 127.0.0.1 at 2010-04-08 19:15:59) [GET]
+Rendering template within layouts/application
+Rendering states/index
+Completed in 47ms (View: 32, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:16:03) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>"test", "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 171ms (View: 15, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:16:19) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>"startup -> init (abc)", "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 234ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:16:34) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>"startup -> init (abc)\ninit -> idle (def)", "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 219ms (View: 16, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]
+
+
+Processing StatesController#update_dotsvg (for 127.0.0.1 at 2010-04-08 19:16:48) [POST]
+  Parameters: {"commit"=>"Update", "selected_graph"=>{"id"=>"State       "}, "graph"=>"startup -> init (abc)\ninit -> idle (def)\nidle -> idle (ghi)", "authenticity_token"=>"jYN/mnWSdnRM8Fbi8SWESoRB8y1roRrvi3VxuaB40jU=", "selected_device"=>{"id"=>"Controller"}, "selected_module"=>{"id"=>"uip"}}
+Rendering states/update_dotsvg
+Completed in 219ms (View: 0, DB: 0) | 200 OK [http://localhost/states/update_dotsvg]

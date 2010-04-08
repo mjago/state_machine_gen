@@ -20,7 +20,7 @@
       <br><%= select ("selected_graph", "id", @graph_types.map {|d| d}) %>
       <br><%= select ("selected_device", "id", @devices.map {|d| d}) %>
       <br><%= select ("selected_module", "id", @modules.map {|m| m}) %>
-      <br><%= text_area :graph, @graph, :cols => 80, :rows => 10 %>
+      <br><%= text_area_tag :graph, @graph = "test", :cols => 80, :rows => 10 %>
       <br />
       
       <%= submit_tag "Update" %>
